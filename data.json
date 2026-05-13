@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 290,
+  "count": 374,
   "risks": [
     {
       "slug": "wiki:train-mile",
@@ -48,6 +48,31 @@
       },
       "tags": [
         "aviation"
+      ]
+    },
+    {
+      "slug": "rec:shark-attack-us-year",
+      "name": "Shark fatal attack (US, per resident per year)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 0.001492982979994028,
+      "exposure": "per_year",
+      "exposureDetail": "~1 US fatality per 2 years across whole population.",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "~1 US fatality per 2 years across whole population.",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "ISAF — International Shark Attack File",
+        "url": "https://www.floridamuseum.ufl.edu/shark-attacks/yearly-worldwide-summary/",
+        "publisher": "Florida Museum of Natural History"
+      },
+      "tags": [
+        "animal",
+        "ocean"
       ]
     },
     {
@@ -443,6 +468,56 @@
       },
       "tags": [
         "weather"
+      ]
+    },
+    {
+      "slug": "trans:e-bike-us-year",
+      "name": "E-bike fatality (US, per resident per year)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 0.051756743306459636,
+      "exposure": "per_year",
+      "exposureDetail": "104 e-bike deaths over 6 yrs (CPSC 2017-22).",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "104 e-bike deaths over 6 yrs (CPSC 2017-22).",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "CPSC Micromobility Products-Related Deaths/Injuries (2017-2022)",
+        "url": "https://www.cpsc.gov/s3fs-public/Micromobility-Products-Related-Deaths-Injuries-and-Hazard-Patterns-2017-2022.pdf",
+        "publisher": "US Consumer Product Safety Commission"
+      },
+      "tags": [
+        "bicycle",
+        "micromobility"
+      ]
+    },
+    {
+      "slug": "trans:e-scooter-us-year",
+      "name": "E-scooter fatality (US, per resident per year)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 0.055240370259779036,
+      "exposure": "per_year",
+      "exposureDetail": "111 e-scooter deaths over 6 yrs (CPSC 2017-22).",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "111 e-scooter deaths over 6 yrs (CPSC 2017-22).",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "CPSC Micromobility Products-Related Deaths/Injuries (2017-2022)",
+        "url": "https://www.cpsc.gov/s3fs-public/Micromobility-Products-Related-Deaths-Injuries-and-Hazard-Patterns-2017-2022.pdf",
+        "publisher": "US Consumer Product Safety Commission"
+      },
+      "tags": [
+        "micromobility",
+        "scooter"
       ]
     },
     {
@@ -1069,6 +1144,32 @@
         "derived",
         "fishing",
         "occupation"
+      ]
+    },
+    {
+      "slug": "trans:ferry-indonesia-history",
+      "name": "Ferry fatality (Indonesia, 1966-2017 cumulative per population)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 0.4654169360051713,
+      "exposure": "per_year",
+      "exposureDetail": "6,480 cumulative ferry deaths over 51 years; modern population.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "6,480 cumulative ferry deaths over 51 years; modern population.",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Statista — Ferry fatalities by region (1966-2017)",
+        "url": "https://www.statista.com/statistics/1250799/ferry-fatalities-by-region/",
+        "publisher": "Statista / IMO"
+      },
+      "tags": [
+        "developing",
+        "ferry",
+        "water"
       ]
     },
     {
@@ -1717,6 +1818,32 @@
       ]
     },
     {
+      "slug": "trans:ferry-bangladesh-history",
+      "name": "Ferry fatality (Bangladesh, 1966-2017 cumulative per population)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 1.1748068924539514,
+      "exposure": "per_year",
+      "exposureDetail": "9,886 cumulative ferry deaths over 51 years; modern population.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "9,886 cumulative ferry deaths over 51 years; modern population.",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Statista — Ferry fatalities by region (1966-2017)",
+        "url": "https://www.statista.com/statistics/1250799/ferry-fatalities-by-region/",
+        "publisher": "Statista / IMO"
+      },
+      "tags": [
+        "developing",
+        "ferry",
+        "water"
+      ]
+    },
+    {
       "slug": "wiki:nonnatural-nosuicide-us-day",
       "name": "Non-natural ex. suicide (US)",
       "description": null,
@@ -1942,6 +2069,31 @@
         "country",
         "homicide",
         "violence"
+      ]
+    },
+    {
+      "slug": "rec:atv-us-year",
+      "name": "ATV / off-highway vehicle (per US resident per year)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 2.388772767990445,
+      "exposure": "per_year",
+      "exposureDetail": "~800 annual OHV deaths, ~2/3 ATV.",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "~800 annual OHV deaths, ~2/3 ATV.",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "CPSC — Off-Highway Vehicle Annual Report 2022",
+        "url": "https://www.cpsc.gov/s3fs-public/OHV-Annual-Report-2022.pdf",
+        "publisher": "US Consumer Product Safety Commission"
+      },
+      "tags": [
+        "off-road",
+        "vehicle"
       ]
     },
     {
@@ -2499,6 +2651,32 @@
       ]
     },
     {
+      "slug": "rec:atv-male-us-year",
+      "name": "ATV / OHV fatality (US male per year)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 5.5,
+      "exposure": "per_year",
+      "exposureDetail": "0.55/100k for males (~6× female rate).",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "0.55/100k for males (~6× female rate).",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "CPSC — Off-Highway Vehicle Annual Report 2022",
+        "url": "https://www.cpsc.gov/s3fs-public/OHV-Annual-Report-2022.pdf",
+        "publisher": "US Consumer Product Safety Commission"
+      },
+      "tags": [
+        "demographic",
+        "off-road",
+        "vehicle"
+      ]
+    },
+    {
       "slug": "nps:nps-big-bend",
       "name": "Visiting Big Bend NP",
       "description": null,
@@ -2577,6 +2755,31 @@
       ]
     },
     {
+      "slug": "preg:abortion-induced-us",
+      "name": "Induced abortion (US, per procedure)",
+      "description": null,
+      "category": "medical",
+      "micromorts": 6.0,
+      "exposure": "per_event",
+      "exposureDetail": "Legal induced abortion mortality, CDC long-run average.",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "Legal induced abortion mortality, CDC long-run average.",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Preeclampsia Foundation — Maternal Burden Facts",
+        "url": "https://www.preeclampsia.org/the-news/legislative-advocacy/preeclampsia-and-maternal-mortality-a-global-burden",
+        "publisher": "Preeclampsia Foundation"
+      },
+      "tags": [
+        "pregnancy",
+        "procedure"
+      ]
+    },
+    {
       "slug": "ga:ga-fixed-wing-2023",
       "name": "General aviation fixed-wing (per flight hour, 2023)",
       "description": null,
@@ -2600,6 +2803,56 @@
         "aviation",
         "fixed-wing",
         "private"
+      ]
+    },
+    {
+      "slug": "trans:cruise-passenger",
+      "name": "Cruise ship voyage (per guest, all causes)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 6.666666666666667,
+      "exposure": "per_event",
+      "exposureDetail": "1 death per 150,000 guests; mostly age-related natural causes.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "1 death per 150,000 guests; mostly age-related natural causes.",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Death at Sea — Passenger and Crew Mortality on Cruise Ships",
+        "url": "https://www.ijtmgh.com/article_119591.html",
+        "publisher": "International Journal of Travel Medicine & Global Health"
+      },
+      "tags": [
+        "cruise",
+        "water"
+      ]
+    },
+    {
+      "slug": "rec:hunting-us-year",
+      "name": "Hunting incident fatality (US, per hunter per year)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 6.666666666666667,
+      "exposure": "per_year",
+      "exposureDetail": "~100 hunting deaths/yr / ~15M active US hunters.",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "~100 hunting deaths/yr / ~15M active US hunters.",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "IHEA / NSC — Hunting incident statistics",
+        "url": "https://ihea-usa.org/",
+        "publisher": "International Hunter Education Association"
+      },
+      "tags": [
+        "firearms",
+        "hunting"
       ]
     },
     {
@@ -3129,6 +3382,32 @@
       ]
     },
     {
+      "slug": "who-suicide:jordan-2022",
+      "name": "Suicide — Jordan (2022)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 17.0,
+      "exposure": "per_year",
+      "exposureDetail": "Population-average suicide rate per 100k per year",
+      "population": null,
+      "region": "Jordan",
+      "year": 2022,
+      "originalValue": "1.7/100,000/year",
+      "originalUnit": "suicides per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO Global Health Estimates — Suicide mortality by country",
+        "url": "https://www.who.int/data/gho/data/themes/mental-health/suicide-rates",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "suicide",
+        "violence"
+      ]
+    },
+    {
       "slug": "wiki:baseline-all-causes-ca-day",
       "name": "All causes baseline (Canada)",
       "description": null,
@@ -3229,6 +3508,32 @@
       ]
     },
     {
+      "slug": "who-suicide:indonesia-2022",
+      "name": "Suicide — Indonesia (2022)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 20.0,
+      "exposure": "per_year",
+      "exposureDetail": "Population-average suicide rate per 100k per year",
+      "population": null,
+      "region": "Indonesia",
+      "year": 2022,
+      "originalValue": "2.0/100,000/year",
+      "originalUnit": "suicides per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO Global Health Estimates — Suicide mortality by country",
+        "url": "https://www.who.int/data/gho/data/themes/mental-health/suicide-rates",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "suicide",
+        "violence"
+      ]
+    },
+    {
       "slug": "wiki:baseline-all-causes-us-day",
       "name": "All causes baseline (US)",
       "description": null,
@@ -3250,6 +3555,32 @@
       },
       "tags": [
         "baseline"
+      ]
+    },
+    {
+      "slug": "who-suicide:turkey-2022",
+      "name": "Suicide — Turkey (2022)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 23.0,
+      "exposure": "per_year",
+      "exposureDetail": "Population-average suicide rate per 100k per year",
+      "population": null,
+      "region": "Turkey",
+      "year": 2022,
+      "originalValue": "2.3/100,000/year",
+      "originalUnit": "suicides per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO Global Health Estimates — Suicide mortality by country",
+        "url": "https://www.who.int/data/gho/data/themes/mental-health/suicide-rates",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "suicide",
+        "violence"
       ]
     },
     {
@@ -3402,6 +3733,32 @@
       ]
     },
     {
+      "slug": "rec:shark-surfer-lifetime",
+      "name": "Shark fatal attack (US surfer, lifetime)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 39.000039000039,
+      "exposure": "lifetime",
+      "exposureDetail": "~1 in 25,641 lifetime risk for an American surfer.",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "~1 in 25,641 lifetime risk for an American surfer.",
+      "originalUnit": "lifetime",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "ISAF — International Shark Attack File",
+        "url": "https://www.floridamuseum.ufl.edu/shark-attacks/yearly-worldwide-summary/",
+        "publisher": "Florida Museum of Natural History"
+      },
+      "tags": [
+        "animal",
+        "ocean",
+        "surfing"
+      ]
+    },
+    {
       "slug": "wiki:homicide-us-year",
       "name": "Murder & non-negligent manslaughter (US)",
       "description": null,
@@ -3423,6 +3780,57 @@
       },
       "tags": [
         "homicide"
+      ]
+    },
+    {
+      "slug": "rec:boating-per-registered-2024",
+      "name": "Recreational boating (per registered boat-year, 2024)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 48.0,
+      "exposure": "per_year",
+      "exposureDetail": "4.8 deaths per 100k registered vessels; 76% drowning.",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "4.8 deaths per 100k registered vessels; 76% drowning.",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "USCG — Recreational Boating Statistics 2024",
+        "url": "https://www.uscgboating.org/library/accident-statistics/Recreational-Boating-Statistics-2024.pdf",
+        "publisher": "US Coast Guard"
+      },
+      "tags": [
+        "boating",
+        "water"
+      ]
+    },
+    {
+      "slug": "who-suicide:mexico-2022",
+      "name": "Suicide — Mexico (2022)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 54.0,
+      "exposure": "per_year",
+      "exposureDetail": "Population-average suicide rate per 100k per year",
+      "population": null,
+      "region": "Mexico",
+      "year": 2022,
+      "originalValue": "5.4/100,000/year",
+      "originalUnit": "suicides per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO Global Health Estimates — Suicide mortality by country",
+        "url": "https://www.who.int/data/gho/data/themes/mental-health/suicide-rates",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "suicide",
+        "violence"
       ]
     },
     {
@@ -3448,6 +3856,32 @@
       "tags": [
         "country",
         "homicide",
+        "violence"
+      ]
+    },
+    {
+      "slug": "who-suicide:italy-2022",
+      "name": "Suicide — Italy (2022)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 59.0,
+      "exposure": "per_year",
+      "exposureDetail": "Population-average suicide rate per 100k per year",
+      "population": null,
+      "region": "Italy",
+      "year": 2022,
+      "originalValue": "5.9/100,000/year",
+      "originalUnit": "suicides per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO Global Health Estimates — Suicide mortality by country",
+        "url": "https://www.who.int/data/gho/data/themes/mental-health/suicide-rates",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "suicide",
         "violence"
       ]
     },
@@ -3729,6 +4163,31 @@
       ]
     },
     {
+      "slug": "global:malaria-world-2022",
+      "name": "Malaria (global average) (2022)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 76.47798742138365,
+      "exposure": "per_year",
+      "exposureDetail": "608,000 global deaths; 96% in WHO African Region.",
+      "population": null,
+      "region": "world",
+      "year": 2022,
+      "originalValue": "608,000 deaths / 7,950,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "WHO World Malaria Report 2023",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "infectious",
+        "malaria"
+      ]
+    },
+    {
       "slug": "unodc:homicide-el-salvador-2022",
       "name": "Homicide — El Salvador (2022)",
       "description": null,
@@ -3755,6 +4214,57 @@
       ]
     },
     {
+      "slug": "who-suicide:uk-2022",
+      "name": "Suicide — United Kingdom (2022)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 79.0,
+      "exposure": "per_year",
+      "exposureDetail": "Population-average suicide rate per 100k per year",
+      "population": null,
+      "region": "United Kingdom",
+      "year": 2022,
+      "originalValue": "7.9/100,000/year",
+      "originalUnit": "suicides per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO Global Health Estimates — Suicide mortality by country",
+        "url": "https://www.who.int/data/gho/data/themes/mental-health/suicide-rates",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "suicide",
+        "violence"
+      ]
+    },
+    {
+      "slug": "global:hiv-world-2022",
+      "name": "HIV/AIDS (global average) (2022)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 79.24528301886792,
+      "exposure": "per_year",
+      "exposureDetail": "630k AIDS-related deaths globally in 2022; declining trend.",
+      "population": null,
+      "region": "world",
+      "year": 2022,
+      "originalValue": "630,000 deaths / 7,950,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "UNAIDS Global AIDS Update 2023",
+        "url": "https://www.unaids.org/en/resources/documents/2023/2023_unaids_data",
+        "publisher": "UNAIDS"
+      },
+      "tags": [
+        "hiv",
+        "infectious"
+      ]
+    },
+    {
       "slug": "cdc:overdose-cocaine-us-2023",
       "name": "Cocaine overdose (US, 2023)",
       "description": null,
@@ -3777,6 +4287,32 @@
       "tags": [
         "drugs",
         "stimulants"
+      ]
+    },
+    {
+      "slug": "who-suicide:world-2022",
+      "name": "Suicide — World (average) (2022)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 91.0,
+      "exposure": "per_year",
+      "exposureDetail": "Population-average suicide rate per 100k per year",
+      "population": null,
+      "region": "World (average)",
+      "year": 2022,
+      "originalValue": "9.1/100,000/year",
+      "originalUnit": "suicides per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO Global Health Estimates — Suicide mortality by country",
+        "url": "https://www.who.int/data/gho/data/themes/mental-health/suicide-rates",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "suicide",
+        "violence"
       ]
     },
     {
@@ -4029,6 +4565,32 @@
       ]
     },
     {
+      "slug": "who-suicide:germany-2022",
+      "name": "Suicide — Germany (2022)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 123.0,
+      "exposure": "per_year",
+      "exposureDetail": "Population-average suicide rate per 100k per year",
+      "population": null,
+      "region": "Germany",
+      "year": 2022,
+      "originalValue": "12.3/100,000/year",
+      "originalUnit": "suicides per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO Global Health Estimates — Suicide mortality by country",
+        "url": "https://www.who.int/data/gho/data/themes/mental-health/suicide-rates",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "suicide",
+        "violence"
+      ]
+    },
+    {
       "slug": "cdc:liver-us-2023",
       "name": "Chronic liver disease / cirrhosis (US, 2023)",
       "description": null,
@@ -4053,6 +4615,31 @@
       ]
     },
     {
+      "slug": "resp:firefighter-line-of-duty",
+      "name": "Firefighter (line-of-duty, US, per FTE year)",
+      "description": null,
+      "category": "occupation",
+      "micromorts": 130.0,
+      "exposure": "per_year",
+      "exposureDetail": "Long-run average; includes career + volunteer.",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "13.0/100,000/year",
+      "originalUnit": "deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "USFA — Annual Firefighter Fatalities Report",
+        "url": "https://www.usfa.fema.gov/statistics/reports/firefighters-departments/firefighter-fatalities.html",
+        "publisher": "US Fire Administration"
+      },
+      "tags": [
+        "firefighter",
+        "occupation"
+      ]
+    },
+    {
       "slug": "cdc:kidney-us-2023",
       "name": "Kidney disease (nephritis etc.) (US, 2023)",
       "description": null,
@@ -4074,6 +4661,31 @@
       },
       "tags": [
         "renal"
+      ]
+    },
+    {
+      "slug": "resp:police-officer-line-of-duty",
+      "name": "Police officer (line-of-duty, US, per FTE year)",
+      "description": null,
+      "category": "occupation",
+      "micromorts": 140.0,
+      "exposure": "per_year",
+      "exposureDetail": "Long-run average; combines hostile + non-hostile on-duty deaths.",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "14.0/100,000/year",
+      "originalUnit": "deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "BLS CFOI — Police & firefighter occupational mortality",
+        "url": "https://www.bls.gov/iif/oshcfoi1.htm",
+        "publisher": "US Bureau of Labor Statistics"
+      },
+      "tags": [
+        "occupation",
+        "police"
       ]
     },
     {
@@ -4103,6 +4715,32 @@
       ]
     },
     {
+      "slug": "who-suicide:us-2022",
+      "name": "Suicide — United States (2022)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 142.0,
+      "exposure": "per_year",
+      "exposureDetail": "Population-average suicide rate per 100k per year",
+      "population": null,
+      "region": "United States",
+      "year": 2022,
+      "originalValue": "14.2/100,000/year",
+      "originalUnit": "suicides per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO Global Health Estimates — Suicide mortality by country",
+        "url": "https://www.who.int/data/gho/data/themes/mental-health/suicide-rates",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "suicide",
+        "violence"
+      ]
+    },
+    {
       "slug": "cdc:firearm-total-us-2022",
       "name": "Firearm death (all intents) (US, 2022)",
       "description": null,
@@ -4124,6 +4762,32 @@
       },
       "tags": [
         "firearms"
+      ]
+    },
+    {
+      "slug": "who-suicide:japan-2022",
+      "name": "Suicide — Japan (2022)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 154.0,
+      "exposure": "per_year",
+      "exposureDetail": "Population-average suicide rate per 100k per year",
+      "population": null,
+      "region": "Japan",
+      "year": 2022,
+      "originalValue": "15.4/100,000/year",
+      "originalUnit": "suicides per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO Global Health Estimates — Suicide mortality by country",
+        "url": "https://www.who.int/data/gho/data/themes/mental-health/suicide-rates",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "suicide",
+        "violence"
       ]
     },
     {
@@ -4179,6 +4843,56 @@
       ]
     },
     {
+      "slug": "combat:mma-fight",
+      "name": "MMA sanctioned bout (per fighter-fight)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 160.0,
+      "exposure": "per_event",
+      "exposureDetail": "16 documented deaths over ~100k cumulative sanctioned MMA fights.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "16 / 100,000",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Wikipedia — Fatalities in MMA contests",
+        "url": "https://en.wikipedia.org/wiki/Fatalities_in_mixed_martial_arts_contests",
+        "publisher": "Wikipedia"
+      },
+      "tags": [
+        "combat",
+        "mma"
+      ]
+    },
+    {
+      "slug": "global:tb-world-2022",
+      "name": "Tuberculosis (global average) (2022)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 163.52201257861634,
+      "exposure": "per_year",
+      "exposureDetail": "1.3 million TB deaths globally in 2022.",
+      "population": null,
+      "region": "world",
+      "year": 2022,
+      "originalValue": "1,300,000 deaths / 7,950,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "WHO Global Tuberculosis Report 2023",
+        "url": "https://www.who.int/teams/global-tuberculosis-programme/tb-reports",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "infectious",
+        "tb"
+      ]
+    },
+    {
       "slug": "med:live-kidney-donor-female",
       "name": "Live kidney donor nephrectomy (female)",
       "description": null,
@@ -4228,6 +4942,58 @@
       "tags": [
         "pregnancy",
         "surgery"
+      ]
+    },
+    {
+      "slug": "resp:police-suicide",
+      "name": "Police officer suicide (US, per FTE year)",
+      "description": null,
+      "category": "occupation",
+      "micromorts": 170.0,
+      "exposure": "per_year",
+      "exposureDetail": "Suicide mortality slightly above line-of-duty rate.",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "17.0/100,000/year",
+      "originalUnit": "deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "Ruderman White Paper — First responder mental health & suicide",
+        "url": "https://rudermanfoundation.org/white_papers/police-officers-and-firefighters-are-more-likely-to-die-by-suicide-than-in-line-of-duty/",
+        "publisher": "Ruderman Family Foundation"
+      },
+      "tags": [
+        "occupation",
+        "police",
+        "suicide"
+      ]
+    },
+    {
+      "slug": "resp:firefighter-suicide",
+      "name": "Firefighter suicide (US, per FTE year)",
+      "description": null,
+      "category": "occupation",
+      "micromorts": 180.0,
+      "exposure": "per_year",
+      "exposureDetail": "Suicide mortality exceeds line-of-duty rate.",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "18.0/100,000/year",
+      "originalUnit": "deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "Ruderman White Paper — First responder mental health & suicide",
+        "url": "https://rudermanfoundation.org/white_papers/police-officers-and-firefighters-are-more-likely-to-die-by-suicide-than-in-line-of-duty/",
+        "publisher": "Ruderman Family Foundation"
+      },
+      "tags": [
+        "firefighter",
+        "occupation",
+        "suicide"
       ]
     },
     {
@@ -4356,6 +5122,31 @@
       ]
     },
     {
+      "slug": "preg:maternal-us-2020",
+      "name": "Maternal death (US, 2020, per pregnancy)",
+      "description": null,
+      "category": "medical",
+      "micromorts": 238.0,
+      "exposure": "per_event",
+      "exposureDetail": "23.8 maternal deaths per 100k live births (2020).",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "23.8 maternal deaths per 100k live births (2020).",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "CDC NCHS — Maternal Mortality 2020 (US)",
+        "url": "https://www.cdc.gov/nchs/maternal-mortality/index.htm",
+        "publisher": "US CDC / NCHS"
+      },
+      "tags": [
+        "maternal",
+        "pregnancy"
+      ]
+    },
+    {
       "slug": "falls:falls-65-74-men",
       "name": "Fatal fall, men 65-74 (US)",
       "description": null,
@@ -4382,6 +5173,32 @@
       ]
     },
     {
+      "slug": "who-suicide:russia-2022",
+      "name": "Suicide — Russia (2022)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 251.0,
+      "exposure": "per_year",
+      "exposureDetail": "Population-average suicide rate per 100k per year",
+      "population": null,
+      "region": "Russia",
+      "year": 2022,
+      "originalValue": "25.1/100,000/year",
+      "originalUnit": "suicides per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO Global Health Estimates — Suicide mortality by country",
+        "url": "https://www.who.int/data/gho/data/themes/mental-health/suicide-rates",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "suicide",
+        "violence"
+      ]
+    },
+    {
       "slug": "unodc:homicide-mexico-2022",
       "name": "Homicide — Mexico (2022)",
       "description": null,
@@ -4404,6 +5221,32 @@
       "tags": [
         "country",
         "homicide",
+        "violence"
+      ]
+    },
+    {
+      "slug": "who-suicide:lithuania-2022",
+      "name": "Suicide — Lithuania (2022)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 261.0,
+      "exposure": "per_year",
+      "exposureDetail": "Population-average suicide rate per 100k per year",
+      "population": null,
+      "region": "Lithuania",
+      "year": 2022,
+      "originalValue": "26.1/100,000/year",
+      "originalUnit": "suicides per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO Global Health Estimates — Suicide mortality by country",
+        "url": "https://www.who.int/data/gho/data/themes/mental-health/suicide-rates",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "suicide",
         "violence"
       ]
     },
@@ -4458,6 +5301,32 @@
       ]
     },
     {
+      "slug": "who-suicide:south-korea-2022",
+      "name": "Suicide — South Korea (2022)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 286.0,
+      "exposure": "per_year",
+      "exposureDetail": "Population-average suicide rate per 100k per year",
+      "population": null,
+      "region": "South Korea",
+      "year": 2022,
+      "originalValue": "28.6/100,000/year",
+      "originalUnit": "suicides per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO Global Health Estimates — Suicide mortality by country",
+        "url": "https://www.who.int/data/gho/data/themes/mental-health/suicide-rates",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "suicide",
+        "violence"
+      ]
+    },
+    {
       "slug": "wiki:nonnatural-eaw-year",
       "name": "Non-natural cause (England & Wales)",
       "description": null,
@@ -4480,6 +5349,31 @@
       "tags": [
         "baseline",
         "non-natural"
+      ]
+    },
+    {
+      "slug": "preg:ectopic-pregnancy-case-fatality",
+      "name": "Ectopic pregnancy (per case, US)",
+      "description": null,
+      "category": "medical",
+      "micromorts": 300.0,
+      "exposure": "per_event",
+      "exposureDetail": "~30 deaths per 100k ectopic pregnancies (modern US).",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "~30 deaths per 100k ectopic pregnancies (modern US).",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "CDC MMWR — Ectopic Pregnancy Surveillance",
+        "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00031632.htm",
+        "publisher": "US CDC MMWR"
+      },
+      "tags": [
+        "complication",
+        "pregnancy"
       ]
     },
     {
@@ -4735,6 +5629,32 @@
       ]
     },
     {
+      "slug": "who-suicide:guyana-2022",
+      "name": "Suicide — Guyana (2022)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 403.0,
+      "exposure": "per_year",
+      "exposureDetail": "Population-average suicide rate per 100k per year",
+      "population": null,
+      "region": "Guyana",
+      "year": 2022,
+      "originalValue": "40.3/100,000/year",
+      "originalUnit": "suicides per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO Global Health Estimates — Suicide mortality by country",
+        "url": "https://www.who.int/data/gho/data/themes/mental-health/suicide-rates",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "suicide",
+        "violence"
+      ]
+    },
+    {
       "slug": "bls:refuse-year-2023",
       "name": "Refuse & recyclable material collectors (per FTE year, 2023)",
       "description": null,
@@ -4884,6 +5804,31 @@
         "age",
         "age-1",
         "baseline"
+      ]
+    },
+    {
+      "slug": "global:malaria-africa-2022",
+      "name": "Malaria (WHO African Region) (2022)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 452.71317829457365,
+      "exposure": "per_year",
+      "exposureDetail": "94% of global malaria deaths concentrated in Sub-Saharan Africa.",
+      "population": null,
+      "region": "africa",
+      "year": 2022,
+      "originalValue": "584,000 deaths / 1,290,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "WHO World Malaria Report 2023",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "infectious",
+        "malaria"
       ]
     },
     {
@@ -5038,6 +5983,32 @@
       ]
     },
     {
+      "slug": "preg:maternal-us-black-2020",
+      "name": "Maternal death (US Black women, per pregnancy)",
+      "description": null,
+      "category": "medical",
+      "micromorts": 553.0,
+      "exposure": "per_event",
+      "exposureDetail": "55.3/100k live births — 2.3× US average.",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "55.3/100k live births — 2.3× US average.",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "CDC NCHS — Maternal Mortality 2020 (US)",
+        "url": "https://www.cdc.gov/nchs/maternal-mortality/index.htm",
+        "publisher": "US CDC / NCHS"
+      },
+      "tags": [
+        "demographic",
+        "maternal",
+        "pregnancy"
+      ]
+    },
+    {
       "slug": "wiki:nonnatural-us-year",
       "name": "Non-natural cause (US)",
       "description": null,
@@ -5060,6 +6031,33 @@
       "tags": [
         "baseline",
         "non-natural"
+      ]
+    },
+    {
+      "slug": "combat:ufc-fight",
+      "name": "UFC fight (per fighter-fight, upper 95% bound)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 600.0,
+      "exposure": "per_event",
+      "exposureDetail": "Zero in-fight deaths over ~5,000 UFC fights. Value is rule-of-three 95% upper bound.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "3 / 5,000",
+      "originalUnit": "per_event",
+      "confidence": "low",
+      "notes": null,
+      "source": {
+        "name": "Wikipedia — Fatalities in MMA contests",
+        "url": "https://en.wikipedia.org/wiki/Fatalities_in_mixed_martial_arts_contests",
+        "publisher": "Wikipedia"
+      },
+      "tags": [
+        "combat",
+        "mma",
+        "ufc",
+        "upper-bound"
       ]
     },
     {
@@ -5135,6 +6133,32 @@
       "tags": [
         "elderly",
         "falls"
+      ]
+    },
+    {
+      "slug": "who-suicide:lesotho-2022",
+      "name": "Suicide — Lesotho (2022)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 724.0,
+      "exposure": "per_year",
+      "exposureDetail": "Population-average suicide rate per 100k per year",
+      "population": null,
+      "region": "Lesotho",
+      "year": 2022,
+      "originalValue": "72.4/100,000/year",
+      "originalUnit": "suicides per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO Global Health Estimates — Suicide mortality by country",
+        "url": "https://www.who.int/data/gho/data/themes/mental-health/suicide-rates",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "suicide",
+        "violence"
       ]
     },
     {
@@ -5292,6 +6316,31 @@
       ]
     },
     {
+      "slug": "env:pm25-global-year",
+      "name": "Ambient PM2.5 air pollution (global, per resident-year)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 984.9056603773585,
+      "exposure": "per_year",
+      "exposureDetail": "7.83 million deaths globally attributable to PM2.5 in 2021.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "7.83 million deaths globally attributable to PM2.5 in 2021.",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Lancet — GBD 2021 (PM2.5 attributable mortality)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12041061/",
+        "publisher": "Lancet / IHME"
+      },
+      "tags": [
+        "air-quality",
+        "pollution"
+      ]
+    },
+    {
       "slug": "bls:logging-year-2023",
       "name": "Logging workers (per FTE year, 2023)",
       "description": null,
@@ -5340,6 +6389,31 @@
         "hiv",
         "sexual",
         "transmission-not-mortality"
+      ]
+    },
+    {
+      "slug": "env:pm25-india-year",
+      "name": "Ambient PM2.5 air pollution (India, per resident-year)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 1214.2857142857142,
+      "exposure": "per_year",
+      "exposureDetail": "~1.7M Indian deaths attributable to PM2.5 annually.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "~1.7M Indian deaths attributable to PM2.5 annually.",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Lancet — GBD 2021 (PM2.5 attributable mortality)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12041061/",
+        "publisher": "Lancet / IHME"
+      },
+      "tags": [
+        "air-quality",
+        "pollution"
       ]
     },
     {
@@ -5415,6 +6489,31 @@
       },
       "tags": [
         "cancer"
+      ]
+    },
+    {
+      "slug": "combat:boxing-pro-fight",
+      "name": "Professional boxing match (per fighter-fight)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 1500.0,
+      "exposure": "per_event",
+      "exposureDetail": "Rough estimate: ~1-2 deaths per 1,000 pro fights worldwide, all eras.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "1.5 / 1,000",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Wikipedia + Manuel Velazquez Collection — Boxing fatalities",
+        "url": "https://en.wikipedia.org/wiki/List_of_deaths_due_to_injuries_sustained_in_boxing",
+        "publisher": "Wikipedia / Manuel Velazquez Collection"
+      },
+      "tags": [
+        "boxing",
+        "combat"
       ]
     },
     {
@@ -5518,6 +6617,56 @@
       ]
     },
     {
+      "slug": "global:hiv-eswatini-2022",
+      "name": "HIV/AIDS (Eswatini — highest prevalence) (2022)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 2000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Highest HIV prevalence globally (~26% of adults).",
+      "population": null,
+      "region": "Eswatini",
+      "year": 2022,
+      "originalValue": "2,400 deaths / 1,200,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "UNAIDS Global AIDS Update 2023",
+        "url": "https://www.unaids.org/en/resources/documents/2023/2023_unaids_data",
+        "publisher": "UNAIDS"
+      },
+      "tags": [
+        "hiv",
+        "infectious"
+      ]
+    },
+    {
+      "slug": "preg:preeclampsia-case-fatality",
+      "name": "Severe pre-eclampsia / eclampsia (per case, US)",
+      "description": null,
+      "category": "medical",
+      "micromorts": 2000.0,
+      "exposure": "per_event",
+      "exposureDetail": "Approx 0.2% case-fatality with modern care (much higher historically).",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "Approx 0.2% case-fatality with modern care (much higher historically).",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Preeclampsia Foundation — Maternal Burden Facts",
+        "url": "https://www.preeclampsia.org/the-news/legislative-advocacy/preeclampsia-and-maternal-mortality-a-global-burden",
+        "publisher": "Preeclampsia Foundation"
+      },
+      "tags": [
+        "complication",
+        "pregnancy"
+      ]
+    },
+    {
       "slug": "cdc-life:age-035-us-2022",
       "name": "All-cause mortality at age 35 (US, 2022)",
       "description": null,
@@ -5541,6 +6690,112 @@
         "age",
         "age-35",
         "baseline"
+      ]
+    },
+    {
+      "slug": "u5:singapore-2023",
+      "name": "Under-5 mortality — Singapore (2023)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 2100.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative probability of dying before age 5",
+      "population": null,
+      "region": "Singapore",
+      "year": 2023,
+      "originalValue": "2.1/1,000 live births",
+      "originalUnit": "under-5 mortality rate (per 1k LB)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "UNICEF — Levels & Trends in Child Mortality 2023",
+        "url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+        "publisher": "UNICEF Child Mortality Estimation"
+      },
+      "tags": [
+        "baseline",
+        "child",
+        "country",
+        "u5mr"
+      ]
+    },
+    {
+      "slug": "global:tb-lesotho-2022",
+      "name": "Tuberculosis (Lesotho) (2022)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 2173.913043478261,
+      "exposure": "per_year",
+      "exposureDetail": "Among highest TB death rates globally (~220/100k).",
+      "population": null,
+      "region": "Lesotho",
+      "year": 2022,
+      "originalValue": "5,000 deaths / 2,300,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "WHO Global Tuberculosis Report 2023",
+        "url": "https://www.who.int/teams/global-tuberculosis-programme/tb-reports",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "infectious",
+        "tb"
+      ]
+    },
+    {
+      "slug": "u5:japan-2023",
+      "name": "Under-5 mortality — Japan (2023)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 2400.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative probability of dying before age 5",
+      "population": null,
+      "region": "Japan",
+      "year": 2023,
+      "originalValue": "2.4/1,000 live births",
+      "originalUnit": "under-5 mortality rate (per 1k LB)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "UNICEF — Levels & Trends in Child Mortality 2023",
+        "url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+        "publisher": "UNICEF Child Mortality Estimation"
+      },
+      "tags": [
+        "baseline",
+        "child",
+        "country",
+        "u5mr"
+      ]
+    },
+    {
+      "slug": "u5:sweden-2023",
+      "name": "Under-5 mortality — Sweden (2023)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 2400.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative probability of dying before age 5",
+      "population": null,
+      "region": "Sweden",
+      "year": 2023,
+      "originalValue": "2.4/1,000 live births",
+      "originalUnit": "under-5 mortality rate (per 1k LB)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "UNICEF — Levels & Trends in Child Mortality 2023",
+        "url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+        "publisher": "UNICEF Child Mortality Estimation"
+      },
+      "tags": [
+        "baseline",
+        "child",
+        "country",
+        "u5mr"
       ]
     },
     {
@@ -5695,6 +6950,32 @@
         "age",
         "age-45",
         "baseline"
+      ]
+    },
+    {
+      "slug": "global:malaria-african-child-2022",
+      "name": "Malaria (Sub-Saharan African child under 5) (2022)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 3384.6153846153848,
+      "exposure": "per_year",
+      "exposureDetail": "Three-quarters of malaria deaths are children under 5.",
+      "population": null,
+      "region": "africa",
+      "year": 2022,
+      "originalValue": "440,000 deaths / 130,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "WHO World Malaria Report 2023",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "child",
+        "infectious",
+        "malaria"
       ]
     },
     {
@@ -5877,6 +7158,60 @@
       ]
     },
     {
+      "slug": "u5:uk-2023",
+      "name": "Under-5 mortality — United Kingdom (2023)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 4000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative probability of dying before age 5",
+      "population": null,
+      "region": "United Kingdom",
+      "year": 2023,
+      "originalValue": "4.0/1,000 live births",
+      "originalUnit": "under-5 mortality rate (per 1k LB)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "UNICEF — Levels & Trends in Child Mortality 2023",
+        "url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+        "publisher": "UNICEF Child Mortality Estimation"
+      },
+      "tags": [
+        "baseline",
+        "child",
+        "country",
+        "u5mr"
+      ]
+    },
+    {
+      "slug": "u5:high-income-2023",
+      "name": "Under-5 mortality — High-income countries (2023)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 4400.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative probability of dying before age 5",
+      "population": null,
+      "region": "High-income countries",
+      "year": 2023,
+      "originalValue": "4.4/1,000 live births",
+      "originalUnit": "under-5 mortality rate (per 1k LB)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "UNICEF — Levels & Trends in Child Mortality 2023",
+        "url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+        "publisher": "UNICEF Child Mortality Estimation"
+      },
+      "tags": [
+        "baseline",
+        "child",
+        "country",
+        "u5mr"
+      ]
+    },
+    {
       "slug": "cdc-life:age-050-us-2022",
       "name": "All-cause mortality at age 50 (US, 2022)",
       "description": null,
@@ -5976,6 +7311,32 @@
         "cancer",
         "food",
         "lifetime"
+      ]
+    },
+    {
+      "slug": "cancer-life:brain-us-2024",
+      "name": "Brain & nervous-system cancer (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 5000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer site",
+      "population": "US, both sexes",
+      "region": "US",
+      "year": 2024,
+      "originalValue": "0.50% lifetime mortality risk",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "SEER + ACS — Cancer Facts & Figures (lifetime risks)",
+        "url": "https://seer.cancer.gov/statfacts/html/common.html",
+        "publisher": "NCI SEER / American Cancer Society"
+      },
+      "tags": [
+        "cancer",
+        "lifetime",
+        "neuro"
       ]
     },
     {
@@ -6182,6 +7543,60 @@
       ]
     },
     {
+      "slug": "u5:us-2023",
+      "name": "Under-5 mortality — United States (2023)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 6300.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative probability of dying before age 5",
+      "population": null,
+      "region": "United States",
+      "year": 2023,
+      "originalValue": "6.3/1,000 live births",
+      "originalUnit": "under-5 mortality rate (per 1k LB)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "UNICEF — Levels & Trends in Child Mortality 2023",
+        "url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+        "publisher": "UNICEF Child Mortality Estimation"
+      },
+      "tags": [
+        "baseline",
+        "child",
+        "country",
+        "u5mr"
+      ]
+    },
+    {
+      "slug": "u5:china-2023",
+      "name": "Under-5 mortality — China (2023)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 6500.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative probability of dying before age 5",
+      "population": null,
+      "region": "China",
+      "year": 2023,
+      "originalValue": "6.5/1,000 live births",
+      "originalUnit": "under-5 mortality rate (per 1k LB)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "UNICEF — Levels & Trends in Child Mortality 2023",
+        "url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+        "publisher": "UNICEF Child Mortality Estimation"
+      },
+      "tags": [
+        "baseline",
+        "child",
+        "country",
+        "u5mr"
+      ]
+    },
+    {
       "slug": "who-maternal:liberia-2023",
       "name": "Childbirth — Liberia (2023)",
       "description": null,
@@ -6230,6 +7645,32 @@
         "age",
         "age-55",
         "baseline"
+      ]
+    },
+    {
+      "slug": "env:radon-home-4pci-neversmoker",
+      "name": "Radon at 4 pCi/L (lifetime, never-smoker)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 7000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "0.7% lifetime lung-cancer risk for never-smokers at 4 pCi/L.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "0.7% lifetime lung-cancer risk for never-smokers at 4 pCi/L.",
+      "originalUnit": "lifetime",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "US EPA — Health Risk of Radon",
+        "url": "https://www.epa.gov/radon/health-risk-radon",
+        "publisher": "US EPA"
+      },
+      "tags": [
+        "lung-cancer",
+        "radiation",
+        "radon"
       ]
     },
     {
@@ -6304,6 +7745,31 @@
         "iss",
         "radiation",
         "space"
+      ]
+    },
+    {
+      "slug": "cancer-life:leukemia-us-2024",
+      "name": "Leukemia (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 8000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer site",
+      "population": "US, both sexes",
+      "region": "US",
+      "year": 2024,
+      "originalValue": "0.80% lifetime mortality risk",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "SEER + ACS — Cancer Facts & Figures (lifetime risks)",
+        "url": "https://seer.cancer.gov/statfacts/html/common.html",
+        "publisher": "NCI SEER / American Cancer Society"
+      },
+      "tags": [
+        "cancer",
+        "lifetime"
       ]
     },
     {
@@ -6383,6 +7849,31 @@
       ]
     },
     {
+      "slug": "cancer-life:liver-us-2024",
+      "name": "Liver cancer (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 10000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer site",
+      "population": "US, both sexes",
+      "region": "US",
+      "year": 2024,
+      "originalValue": "1.00% lifetime mortality risk",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "SEER + ACS — Cancer Facts & Figures (lifetime risks)",
+        "url": "https://seer.cancer.gov/statfacts/html/common.html",
+        "publisher": "NCI SEER / American Cancer Society"
+      },
+      "tags": [
+        "cancer",
+        "lifetime"
+      ]
+    },
+    {
       "slug": "cdc-life:age-060-us-2022",
       "name": "All-cause mortality at age 60 (US, 2022)",
       "description": null,
@@ -6406,6 +7897,31 @@
         "age",
         "age-60",
         "baseline"
+      ]
+    },
+    {
+      "slug": "cancer-life:pancreas-us-2024",
+      "name": "Pancreatic cancer (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 11000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer site",
+      "population": "US, both sexes",
+      "region": "US",
+      "year": 2024,
+      "originalValue": "1.10% lifetime mortality risk",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "SEER + ACS — Cancer Facts & Figures (lifetime risks)",
+        "url": "https://seer.cancer.gov/statfacts/html/common.html",
+        "publisher": "NCI SEER / American Cancer Society"
+      },
+      "tags": [
+        "cancer",
+        "lifetime"
       ]
     },
     {
@@ -6614,6 +8130,31 @@
       ]
     },
     {
+      "slug": "cancer-life:colorectal-us-2024",
+      "name": "Colorectal cancer (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 18000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer site",
+      "population": "US, both sexes",
+      "region": "US",
+      "year": 2024,
+      "originalValue": "1.80% lifetime mortality risk",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "SEER + ACS — Cancer Facts & Figures (lifetime risks)",
+        "url": "https://seer.cancer.gov/statfacts/html/common.html",
+        "publisher": "NCI SEER / American Cancer Society"
+      },
+      "tags": [
+        "cancer",
+        "lifetime"
+      ]
+    },
+    {
       "slug": "space:mars-roundtrip-rad",
       "name": "Mars mission — 3-yr roundtrip (radiation only)",
       "description": null,
@@ -6666,6 +8207,31 @@
       ]
     },
     {
+      "slug": "combat:nfl-career-cte-lifetime",
+      "name": "NFL career — excess neurodegenerative-disease mortality",
+      "description": null,
+      "category": "activity",
+      "micromorts": 20000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "~3× higher death rate from Alzheimer/ALS vs population. Rough lifetime excess.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "20000",
+      "originalUnit": "lifetime",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "BU CTE Center — 345/376 deceased NFL players had CTE (2023)",
+        "url": "https://www.bumc.bu.edu/camed/2023/02/06/researchers-find-cte-in-345-of-376-former-nfl-players-studied/",
+        "publisher": "Boston University CTE Center"
+      },
+      "tags": [
+        "career",
+        "football"
+      ]
+    },
+    {
       "slug": "cdc-life:age-070-us-2022",
       "name": "All-cause mortality at age 70 (US, 2022)",
       "description": null,
@@ -6689,6 +8255,32 @@
         "age",
         "age-70",
         "baseline"
+      ]
+    },
+    {
+      "slug": "env:radon-home-4pci-population",
+      "name": "Radon at EPA action level (4 pCi/L, lifetime, population avg)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 23000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "2.3% lifetime lung-cancer risk at 4 pCi/L for general US population (EPA).",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "2.3% lifetime lung-cancer risk at 4 pCi/L for general US population (EPA).",
+      "originalUnit": "lifetime",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "US EPA — Health Risk of Radon",
+        "url": "https://www.epa.gov/radon/health-risk-radon",
+        "publisher": "US EPA"
+      },
+      "tags": [
+        "lung-cancer",
+        "radiation",
+        "radon"
       ]
     },
     {
@@ -6740,6 +8332,58 @@
       "tags": [
         "cardiac",
         "surgery"
+      ]
+    },
+    {
+      "slug": "cancer-life:prostate-male-us-2024",
+      "name": "Prostate cancer (lifetime, men)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 25000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer site",
+      "population": null,
+      "region": "US",
+      "year": 2024,
+      "originalValue": "2.50% lifetime mortality risk",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "SEER + ACS — Cancer Facts & Figures (lifetime risks)",
+        "url": "https://seer.cancer.gov/statfacts/html/common.html",
+        "publisher": "NCI SEER / American Cancer Society"
+      },
+      "tags": [
+        "cancer",
+        "demographic",
+        "lifetime"
+      ]
+    },
+    {
+      "slug": "cancer-life:breast-female-us-2024",
+      "name": "Breast cancer (lifetime, women)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 26000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer site",
+      "population": null,
+      "region": "US",
+      "year": 2024,
+      "originalValue": "2.60% lifetime mortality risk",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "SEER + ACS — Cancer Facts & Figures (lifetime risks)",
+        "url": "https://seer.cancer.gov/statfacts/html/common.html",
+        "publisher": "NCI SEER / American Cancer Society"
+      },
+      "tags": [
+        "cancer",
+        "demographic",
+        "lifetime"
       ]
     },
     {
@@ -6844,6 +8488,87 @@
         "aviation",
         "historical",
         "space"
+      ]
+    },
+    {
+      "slug": "u5:south-asia-2023",
+      "name": "Under-5 mortality — South Asia (region) (2023)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 32000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative probability of dying before age 5",
+      "population": null,
+      "region": "South Asia (region)",
+      "year": 2023,
+      "originalValue": "32.0/1,000 live births",
+      "originalUnit": "under-5 mortality rate (per 1k LB)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "UNICEF — Levels & Trends in Child Mortality 2023",
+        "url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+        "publisher": "UNICEF Child Mortality Estimation"
+      },
+      "tags": [
+        "baseline",
+        "child",
+        "country",
+        "u5mr"
+      ]
+    },
+    {
+      "slug": "u5:middle-income-2023",
+      "name": "Under-5 mortality — Middle-income countries (2023)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 34000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative probability of dying before age 5",
+      "population": null,
+      "region": "Middle-income countries",
+      "year": 2023,
+      "originalValue": "34.0/1,000 live births",
+      "originalUnit": "under-5 mortality rate (per 1k LB)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "UNICEF — Levels & Trends in Child Mortality 2023",
+        "url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+        "publisher": "UNICEF Child Mortality Estimation"
+      },
+      "tags": [
+        "baseline",
+        "child",
+        "country",
+        "u5mr"
+      ]
+    },
+    {
+      "slug": "u5:world-2023",
+      "name": "Under-5 mortality — World (average) (2023)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 36700.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative probability of dying before age 5",
+      "population": null,
+      "region": "World (average)",
+      "year": 2023,
+      "originalValue": "36.7/1,000 live births",
+      "originalUnit": "under-5 mortality rate (per 1k LB)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "UNICEF — Levels & Trends in Child Mortality 2023",
+        "url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+        "publisher": "UNICEF Child Mortality Estimation"
+      },
+      "tags": [
+        "baseline",
+        "child",
+        "country",
+        "u5mr"
       ]
     },
     {
@@ -7051,6 +8776,112 @@
       ]
     },
     {
+      "slug": "cancer-life:lung-us-2024",
+      "name": "Lung & bronchus cancer (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 61000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer site",
+      "population": "US, both sexes",
+      "region": "US",
+      "year": 2024,
+      "originalValue": "6.10% lifetime mortality risk",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "SEER + ACS — Cancer Facts & Figures (lifetime risks)",
+        "url": "https://seer.cancer.gov/statfacts/html/common.html",
+        "publisher": "NCI SEER / American Cancer Society"
+      },
+      "tags": [
+        "cancer",
+        "lifetime",
+        "lung"
+      ]
+    },
+    {
+      "slug": "env:radon-home-4pci-smoker",
+      "name": "Radon at 4 pCi/L (lifetime, ever-smoker)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 62000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "6.2% lifetime lung-cancer risk for ever-smokers at 4 pCi/L.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "6.2% lifetime lung-cancer risk for ever-smokers at 4 pCi/L.",
+      "originalUnit": "lifetime",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "US EPA — Health Risk of Radon",
+        "url": "https://www.epa.gov/radon/health-risk-radon",
+        "publisher": "US EPA"
+      },
+      "tags": [
+        "lung-cancer",
+        "radiation",
+        "radon"
+      ]
+    },
+    {
+      "slug": "u5:low-income-2023",
+      "name": "Under-5 mortality — Low-income countries (2023)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 65000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative probability of dying before age 5",
+      "population": null,
+      "region": "Low-income countries",
+      "year": 2023,
+      "originalValue": "65.0/1,000 live births",
+      "originalUnit": "under-5 mortality rate (per 1k LB)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "UNICEF — Levels & Trends in Child Mortality 2023",
+        "url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+        "publisher": "UNICEF Child Mortality Estimation"
+      },
+      "tags": [
+        "baseline",
+        "child",
+        "country",
+        "u5mr"
+      ]
+    },
+    {
+      "slug": "u5:sub-saharan-africa-2023",
+      "name": "Under-5 mortality — Sub-Saharan Africa (region) (2023)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 70000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative probability of dying before age 5",
+      "population": null,
+      "region": "Sub-Saharan Africa (region)",
+      "year": 2023,
+      "originalValue": "70.0/1,000 live births",
+      "originalUnit": "under-5 mortality rate (per 1k LB)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "UNICEF — Levels & Trends in Child Mortality 2023",
+        "url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+        "publisher": "UNICEF Child Mortality Estimation"
+      },
+      "tags": [
+        "baseline",
+        "child",
+        "country",
+        "u5mr"
+      ]
+    },
+    {
       "slug": "cdc-life:age-085-us-2022",
       "name": "All-cause mortality at age 85 (US, 2022)",
       "description": null,
@@ -7074,6 +8905,31 @@
         "age",
         "age-85",
         "baseline"
+      ]
+    },
+    {
+      "slug": "acute:stroke-65-74-30d",
+      "name": "Stroke 30-day mortality, age 65-74 (per event)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 90000.0,
+      "exposure": "per_event",
+      "exposureDetail": "9% 30-day mortality in 65-74 age band.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "9.0% mortality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "Stroke 30-day case-fatality (multiple cohorts)",
+        "url": "https://www.ahajournals.org/doi/10.1161/strokeaha.107.510362",
+        "publisher": "Stroke (AHA Journal)"
+      },
+      "tags": [
+        "demographic",
+        "stroke"
       ]
     },
     {
@@ -7103,6 +8959,114 @@
       ]
     },
     {
+      "slug": "u5:niger-2023",
+      "name": "Under-5 mortality — Niger (2023)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 105000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative probability of dying before age 5",
+      "population": null,
+      "region": "Niger",
+      "year": 2023,
+      "originalValue": "105.0/1,000 live births",
+      "originalUnit": "under-5 mortality rate (per 1k LB)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "UNICEF — Levels & Trends in Child Mortality 2023",
+        "url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+        "publisher": "UNICEF Child Mortality Estimation"
+      },
+      "tags": [
+        "baseline",
+        "child",
+        "country",
+        "u5mr"
+      ]
+    },
+    {
+      "slug": "u5:chad-2023",
+      "name": "Under-5 mortality — Chad (2023)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 105000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative probability of dying before age 5",
+      "population": null,
+      "region": "Chad",
+      "year": 2023,
+      "originalValue": "105.0/1,000 live births",
+      "originalUnit": "under-5 mortality rate (per 1k LB)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "UNICEF — Levels & Trends in Child Mortality 2023",
+        "url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+        "publisher": "UNICEF Child Mortality Estimation"
+      },
+      "tags": [
+        "baseline",
+        "child",
+        "country",
+        "u5mr"
+      ]
+    },
+    {
+      "slug": "u5:nigeria-2023",
+      "name": "Under-5 mortality — Nigeria (2023)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 107200.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative probability of dying before age 5",
+      "population": null,
+      "region": "Nigeria",
+      "year": 2023,
+      "originalValue": "107.2/1,000 live births",
+      "originalUnit": "under-5 mortality rate (per 1k LB)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "UNICEF — Levels & Trends in Child Mortality 2023",
+        "url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+        "publisher": "UNICEF Child Mortality Estimation"
+      },
+      "tags": [
+        "baseline",
+        "child",
+        "country",
+        "u5mr"
+      ]
+    },
+    {
+      "slug": "u5:somalia-2023",
+      "name": "Under-5 mortality — Somalia (2023)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 114600.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative probability of dying before age 5",
+      "population": null,
+      "region": "Somalia",
+      "year": 2023,
+      "originalValue": "114.6/1,000 live births",
+      "originalUnit": "under-5 mortality rate (per 1k LB)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "UNICEF — Levels & Trends in Child Mortality 2023",
+        "url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+        "publisher": "UNICEF Child Mortality Estimation"
+      },
+      "tags": [
+        "baseline",
+        "child",
+        "country",
+        "u5mr"
+      ]
+    },
+    {
       "slug": "space:mercury-gemini",
       "name": "Mercury + Gemini (per crew slot, upper 95% bound)",
       "description": null,
@@ -7128,6 +9092,30 @@
         "mercury",
         "space",
         "upper-bound"
+      ]
+    },
+    {
+      "slug": "acute:stroke-ischemic-30d",
+      "name": "Ischemic stroke 30-day mortality (per event)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 126000.0,
+      "exposure": "per_event",
+      "exposureDetail": "Pooled 30-day case-fatality ≈ 12.6%.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "12.6% mortality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "Stroke 30-day case-fatality (multiple cohorts)",
+        "url": "https://www.ahajournals.org/doi/10.1161/strokeaha.107.510362",
+        "publisher": "Stroke (AHA Journal)"
+      },
+      "tags": [
+        "stroke"
       ]
     },
     {
@@ -7206,6 +9194,57 @@
       ]
     },
     {
+      "slug": "cancer-life:any-cancer-female-us-2024",
+      "name": "Any cancer death (lifetime, female)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 181000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer site",
+      "population": null,
+      "region": "US",
+      "year": 2024,
+      "originalValue": "18.10% lifetime mortality risk",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "SEER + ACS — Cancer Facts & Figures (lifetime risks)",
+        "url": "https://seer.cancer.gov/statfacts/html/common.html",
+        "publisher": "NCI SEER / American Cancer Society"
+      },
+      "tags": [
+        "cancer",
+        "demographic",
+        "lifetime"
+      ]
+    },
+    {
+      "slug": "cancer-life:any-cancer-us-2024",
+      "name": "Any cancer death (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 197000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer site",
+      "population": "US, both sexes",
+      "region": "US",
+      "year": 2024,
+      "originalValue": "19.70% lifetime mortality risk",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "SEER + ACS — Cancer Facts & Figures (lifetime risks)",
+        "url": "https://seer.cancer.gov/statfacts/html/common.html",
+        "publisher": "NCI SEER / American Cancer Society"
+      },
+      "tags": [
+        "cancer",
+        "lifetime"
+      ]
+    },
+    {
       "slug": "food:death-cap",
       "name": "Death cap mushroom (Amanita phalloides) ingestion",
       "description": null,
@@ -7229,6 +9268,57 @@
         "food",
         "high-risk",
         "mushroom"
+      ]
+    },
+    {
+      "slug": "cancer-life:any-cancer-male-us-2024",
+      "name": "Any cancer death (lifetime, male)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 216000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer site",
+      "population": null,
+      "region": "US",
+      "year": 2024,
+      "originalValue": "21.60% lifetime mortality risk",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "SEER + ACS — Cancer Facts & Figures (lifetime risks)",
+        "url": "https://seer.cancer.gov/statfacts/html/common.html",
+        "publisher": "NCI SEER / American Cancer Society"
+      },
+      "tags": [
+        "cancer",
+        "demographic",
+        "lifetime"
+      ]
+    },
+    {
+      "slug": "acute:stroke-85plus-30d",
+      "name": "Stroke 30-day mortality, age 85+ (per event)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 230000.0,
+      "exposure": "per_event",
+      "exposureDetail": "23% 30-day mortality in age 85+ band.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "23.0% mortality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "Stroke 30-day case-fatality (multiple cohorts)",
+        "url": "https://www.ahajournals.org/doi/10.1161/strokeaha.107.510362",
+        "publisher": "Stroke (AHA Journal)"
+      },
+      "tags": [
+        "demographic",
+        "stroke"
       ]
     },
     {
@@ -7307,6 +9397,81 @@
         "drugs",
         "lifetime",
         "tobacco"
+      ]
+    },
+    {
+      "slug": "acute:ohca-witnessed",
+      "name": "OHCA, bystander-witnessed (per event)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 840000.0,
+      "exposure": "per_event",
+      "exposureDetail": "16% survival if a bystander witnesses the arrest.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "84.0% mortality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "AHA — CPR facts & stats / OHCA outcomes",
+        "url": "https://cpr.heart.org/en/resources/cpr-facts-and-stats",
+        "publisher": "American Heart Association"
+      },
+      "tags": [
+        "cardiac",
+        "ohca"
+      ]
+    },
+    {
+      "slug": "acute:ohca-overall",
+      "name": "Out-of-hospital cardiac arrest (per event, US)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 900000.0,
+      "exposure": "per_event",
+      "exposureDetail": "≈90% mortality before hospital discharge from OHCA.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "90.0% mortality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "AHA — CPR facts & stats / OHCA outcomes",
+        "url": "https://cpr.heart.org/en/resources/cpr-facts-and-stats",
+        "publisher": "American Heart Association"
+      },
+      "tags": [
+        "cardiac",
+        "ohca"
+      ]
+    },
+    {
+      "slug": "acute:ohca-unwitnessed",
+      "name": "OHCA, unwitnessed (per event)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 955000.0,
+      "exposure": "per_event",
+      "exposureDetail": "4.5% survival if the arrest is unwitnessed.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "95.5% mortality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "AHA — CPR facts & stats / OHCA outcomes",
+        "url": "https://cpr.heart.org/en/resources/cpr-facts-and-stats",
+        "publisher": "American Heart Association"
+      },
+      "tags": [
+        "cardiac",
+        "ohca"
       ]
     }
   ]
