@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 374,
+  "count": 457,
   "risks": [
     {
       "slug": "wiki:train-mile",
@@ -97,6 +97,31 @@
       },
       "tags": [
         "car"
+      ]
+    },
+    {
+      "slug": "envm:dui-fatal-us-mile",
+      "name": "Alcohol-impaired driving (per VMT, US, 2023)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 0.0038,
+      "exposure": "per_mile",
+      "exposureDetail": "0.38 fatalities per 100 million VMT in alcohol-impaired crashes.",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "0.38 fatalities per 100 million VMT in alcohol-impaired crashes.",
+      "originalUnit": "per_mile",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "NHTSA — Alcohol-Impaired Driving 2023 Data (Pub. 813713)",
+        "url": "https://crashstats.nhtsa.dot.gov/Api/Public/Publication/813713",
+        "publisher": "US DOT NHTSA"
+      },
+      "tags": [
+        "alcohol",
+        "driving"
       ]
     },
     {
@@ -820,6 +845,57 @@
       ]
     },
     {
+      "slug": "animg:lion-attack-africa",
+      "name": "Lion attack (Africa per resident-year)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 0.17857142857142858,
+      "exposure": "per_year",
+      "exposureDetail": "~250 lion-attack deaths/year in Africa.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "~250 deaths/yr / 1,400,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Compiled Africa wildlife attack statistics",
+        "url": "https://africafreak.com/most-dangerous-animals-in-africa",
+        "publisher": "Multiple field surveys"
+      },
+      "tags": [
+        "africa",
+        "animal",
+        "mammal"
+      ]
+    },
+    {
+      "slug": "medm:lasik",
+      "name": "LASIK eye surgery (per procedure)",
+      "description": null,
+      "category": "medical",
+      "micromorts": 0.19999999999999998,
+      "exposure": "per_event",
+      "exposureDetail": "Sight-threatening complications rare; mortality vanishingly small.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "1/5,000,000",
+      "originalUnit": "deaths per procedure",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "American Academy of Ophthalmology — LASIK facts",
+        "url": "https://www.aao.org/eye-health/treatments/facts-about-lasik-complications",
+        "publisher": "American Academy of Ophthalmology"
+      },
+      "tags": [
+        "elective",
+        "surgery"
+      ]
+    },
+    {
       "slug": "bls:refuse-hour-2023",
       "name": "Refuse & recyclable material collectors (per work hour, 2023)",
       "description": null,
@@ -1094,6 +1170,57 @@
       "tags": [
         "historical",
         "mining"
+      ]
+    },
+    {
+      "slug": "animg:elephant-attack-africa",
+      "name": "Elephant attack (Africa per resident-year)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 0.35714285714285715,
+      "exposure": "per_year",
+      "exposureDetail": "~500 elephant-attack deaths/year in Africa.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "~500 deaths/yr / 1,400,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Compiled Africa wildlife attack statistics",
+        "url": "https://africafreak.com/most-dangerous-animals-in-africa",
+        "publisher": "Multiple field surveys"
+      },
+      "tags": [
+        "africa",
+        "animal",
+        "mammal"
+      ]
+    },
+    {
+      "slug": "xtr:snowmobile-us",
+      "name": "Snowmobile (per US resident-year)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 0.3792176769184831,
+      "exposure": "per_year",
+      "exposureDetail": "~127 US snowmobile deaths/year (200 NA total minus ~73 Canada).",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "127 / 334,900,000",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "RideSafe / BRP — North American snowmobile fatality figures",
+        "url": "https://ridesafefoundation.org/snowmobiling-deaths-see-increase-in-2023/",
+        "publisher": "RideSafe Foundation"
+      },
+      "tags": [
+        "snow",
+        "vehicle"
       ]
     },
     {
@@ -1442,6 +1569,32 @@
       },
       "tags": [
         "tobacco"
+      ]
+    },
+    {
+      "slug": "animg:crocodile-attack-africa",
+      "name": "Crocodile attack (Africa per resident-year)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 0.7142857142857143,
+      "exposure": "per_year",
+      "exposureDetail": "~1,000 crocodile-attack deaths/year in Africa.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "~1,000 deaths/yr / 1,400,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Compiled Africa wildlife attack statistics",
+        "url": "https://africafreak.com/most-dangerous-animals-in-africa",
+        "publisher": "Multiple field surveys"
+      },
+      "tags": [
+        "africa",
+        "animal",
+        "reptile"
       ]
     },
     {
@@ -1818,6 +1971,57 @@
       ]
     },
     {
+      "slug": "medm:vasectomy",
+      "name": "Vasectomy (per procedure)",
+      "description": null,
+      "category": "medical",
+      "micromorts": 1.0,
+      "exposure": "per_event",
+      "exposureDetail": "Mortality ≈ 1/1,000,000 — essentially zero.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "1/1,000,000",
+      "originalUnit": "deaths per procedure",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "AAFP / NSQIP — Common surgical procedure mortality rates",
+        "url": "https://www.aafp.org/",
+        "publisher": "American Academy of Family Physicians"
+      },
+      "tags": [
+        "outpatient",
+        "surgery"
+      ]
+    },
+    {
+      "slug": "animg:hippo-attack-africa",
+      "name": "Hippopotamus attack (Africa per resident-year)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 1.0714285714285714,
+      "exposure": "per_year",
+      "exposureDetail": "Estimates range 500-3,000 per year; midpoint shown.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "~1,500 deaths/yr / 1,400,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Compiled Africa wildlife attack statistics",
+        "url": "https://africafreak.com/most-dangerous-animals-in-africa",
+        "publisher": "Multiple field surveys"
+      },
+      "tags": [
+        "africa",
+        "animal",
+        "mammal"
+      ]
+    },
+    {
       "slug": "trans:ferry-bangladesh-history",
       "name": "Ferry fatality (Bangladesh, 1966-2017 cumulative per population)",
       "description": null,
@@ -1866,6 +2070,82 @@
       "tags": [
         "baseline",
         "non-natural"
+      ]
+    },
+    {
+      "slug": "envm:co-accidental-us",
+      "name": "Carbon-monoxide poisoning (US, accidental, per resident-year)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 1.3078530904747685,
+      "exposure": "per_year",
+      "exposureDetail": "≈438 unintentional CO deaths/year; 54% in homes.",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "≈438 unintentional CO deaths/year; 54% in homes.",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "CDC MMWR — Carbon-monoxide poisoning deaths (US)",
+        "url": "https://www.cdc.gov/mmwr/volumes/66/wr/mm6608a9.htm",
+        "publisher": "US CDC MMWR"
+      },
+      "tags": [
+        "accident",
+        "home",
+        "poisoning"
+      ]
+    },
+    {
+      "slug": "animg:deer-collision-us",
+      "name": "Deer-vehicle collision (US per resident-year)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 1.3138250223947447,
+      "exposure": "per_year",
+      "exposureDetail": "≈440 deaths/year from deer-vehicle collisions in the US.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "~440 deaths/yr / 334,900,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Insurance Information Institute — Deer-vehicle collisions",
+        "url": "https://www.iii.org/fact-statistic/facts-statistics-deer-vehicle-collisions",
+        "publisher": "III"
+      },
+      "tags": [
+        "animal",
+        "vehicle"
+      ]
+    },
+    {
+      "slug": "pharma:acetaminophen-overdose-us-year",
+      "name": "Acetaminophen / paracetamol overdose (US, per resident-year)",
+      "description": null,
+      "category": "drugs",
+      "micromorts": 1.492982979994028,
+      "exposure": "per_year",
+      "exposureDetail": "≈500 US deaths/yr (50% unintentional).",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "≈500 US deaths/yr (50% unintentional).",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "StatPearls — Acetaminophen Toxicity",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK441917/",
+        "publisher": "StatPearls"
+      },
+      "tags": [
+        "drugs",
+        "pharmaceutical"
       ]
     },
     {
@@ -1996,6 +2276,31 @@
       ]
     },
     {
+      "slug": "xtr:snowmobile-canada",
+      "name": "Snowmobile (per Canadian resident-year)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 1.8250000000000002,
+      "exposure": "per_year",
+      "exposureDetail": "73 deaths/yr in Canada (2013-19), per resident.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "73 / 40,000,000",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Statistics Canada — Snowmobile fatalities 2013-2019",
+        "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/210122/dq210122d-eng.htm",
+        "publisher": "Statistics Canada"
+      },
+      "tags": [
+        "snow",
+        "vehicle"
+      ]
+    },
+    {
       "slug": "wiki:wine-cirrhosis-halfliter",
       "name": "Wine (cirrhosis)",
       "description": null,
@@ -2043,6 +2348,31 @@
         "cardiac",
         "endurance",
         "running"
+      ]
+    },
+    {
+      "slug": "xtr:bungee-jump",
+      "name": "Bungee jump (per jump)",
+      "description": null,
+      "category": "parachute",
+      "micromorts": 2.0,
+      "exposure": "per_jump",
+      "exposureDetail": "Very rare; pooled estimate ≈ 1 fatality per 500,000 jumps.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "1 / 500,000",
+      "originalUnit": "per_jump",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Mei-Dan et al. — Bungee, BASE & skydiving injury epidemiology",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22824842/",
+        "publisher": "Wilderness & Environmental Medicine"
+      },
+      "tags": [
+        "elastic",
+        "extreme-sports"
       ]
     },
     {
@@ -2398,6 +2728,33 @@
       ]
     },
     {
+      "slug": "envm:co-male-65plus",
+      "name": "Carbon-monoxide poisoning (US men age 65+, per year)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 4.2,
+      "exposure": "per_year",
+      "exposureDetail": "0.42/100k — highest US sub-group.",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "0.42/100k — highest US sub-group.",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "CDC MMWR — Carbon-monoxide poisoning deaths (US)",
+        "url": "https://www.cdc.gov/mmwr/volumes/66/wr/mm6608a9.htm",
+        "publisher": "US CDC MMWR"
+      },
+      "tags": [
+        "demographic",
+        "elderly",
+        "home",
+        "poisoning"
+      ]
+    },
+    {
       "slug": "ga:helicopter-2024",
       "name": "Helicopter (per flight hour, 2024)",
       "description": null,
@@ -2596,6 +2953,31 @@
       "tags": [
         "drugs",
         "psychedelic"
+      ]
+    },
+    {
+      "slug": "xtr:mountain-bike-park-day",
+      "name": "Mountain biking (per visit, lift-served bike park)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 5.0,
+      "exposure": "per_event",
+      "exposureDetail": "Rough estimate from US bike-park incident reports.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "1 / 200,000",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "HardClimbs.info / AAC — Free solo death statistics",
+        "url": "https://hardclimbs.info/free-solo-deaths/",
+        "publisher": "American Alpine Club / Climbing magazine"
+      },
+      "tags": [
+        "cycling",
+        "extreme-sports"
       ]
     },
     {
@@ -3233,6 +3615,32 @@
       ]
     },
     {
+      "slug": "animg:snakebite-global",
+      "name": "Snakebite envenoming (global average per resident-year)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 12.578616352201259,
+      "exposure": "per_year",
+      "exposureDetail": "WHO range 81-138k deaths/year; midpoint shown.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "~100,000 deaths/yr / 7,950,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "WHO — Snakebite envenoming",
+        "url": "https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/prevalence",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "animal",
+        "snake",
+        "venomous"
+      ]
+    },
+    {
       "slug": "wiki:mdma-polydrug-pill",
       "name": "Ecstasy/MDMA + other drugs",
       "description": null,
@@ -3408,6 +3816,31 @@
       ]
     },
     {
+      "slug": "road-global:norway-2022",
+      "name": "Road traffic death — Norway (2022)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 19.0,
+      "exposure": "per_year",
+      "exposureDetail": "Per-resident road traffic mortality, Norway",
+      "population": null,
+      "region": "Norway",
+      "year": 2022,
+      "originalValue": "1.9/100,000/year",
+      "originalUnit": "road traffic deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO — Global Status Report on Road Safety 2023",
+        "url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "road"
+      ]
+    },
+    {
       "slug": "wiki:baseline-all-causes-ca-day",
       "name": "All causes baseline (Canada)",
       "description": null,
@@ -3531,6 +3964,57 @@
         "country",
         "suicide",
         "violence"
+      ]
+    },
+    {
+      "slug": "road-global:sweden-2022",
+      "name": "Road traffic death — Sweden (2022)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 20.0,
+      "exposure": "per_year",
+      "exposureDetail": "Per-resident road traffic mortality, Sweden",
+      "population": null,
+      "region": "Sweden",
+      "year": 2022,
+      "originalValue": "2.0/100,000/year",
+      "originalUnit": "road traffic deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO — Global Status Report on Road Safety 2023",
+        "url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "road"
+      ]
+    },
+    {
+      "slug": "xtr:free-diving",
+      "name": "Free diving (per dive, advanced/competition)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 20.0,
+      "exposure": "per_dive",
+      "exposureDetail": "Higher-end estimate for breath-hold competitive dives.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "1 / 50,000",
+      "originalUnit": "per_dive",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "HardClimbs.info / AAC — Free solo death statistics",
+        "url": "https://hardclimbs.info/free-solo-deaths/",
+        "publisher": "American Alpine Club / Climbing magazine"
+      },
+      "tags": [
+        "extreme-sports",
+        "free-diving",
+        "water"
       ]
     },
     {
@@ -3659,6 +4143,31 @@
       ]
     },
     {
+      "slug": "road-global:uk-2022",
+      "name": "Road traffic death — United Kingdom (2022)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 27.0,
+      "exposure": "per_year",
+      "exposureDetail": "Per-resident road traffic mortality, United Kingdom",
+      "population": null,
+      "region": "United Kingdom",
+      "year": 2022,
+      "originalValue": "2.7/100,000/year",
+      "originalUnit": "road traffic deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO — Global Status Report on Road Safety 2023",
+        "url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "road"
+      ]
+    },
+    {
       "slug": "who-maternal:australia-nz-2023",
       "name": "Childbirth — Australia & New Zealand (2023)",
       "description": null,
@@ -3684,6 +4193,56 @@
       ]
     },
     {
+      "slug": "road-global:japan-2022",
+      "name": "Road traffic death — Japan (2022)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 30.0,
+      "exposure": "per_year",
+      "exposureDetail": "Per-resident road traffic mortality, Japan",
+      "population": null,
+      "region": "Japan",
+      "year": 2022,
+      "originalValue": "3.0/100,000/year",
+      "originalUnit": "road traffic deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO — Global Status Report on Road Safety 2023",
+        "url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "road"
+      ]
+    },
+    {
+      "slug": "medm:tonsillectomy",
+      "name": "Tonsillectomy (per procedure)",
+      "description": null,
+      "category": "medical",
+      "micromorts": 33.333333333333336,
+      "exposure": "per_event",
+      "exposureDetail": "≈ 1 death per 30,000 procedures.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "1/30,000",
+      "originalUnit": "deaths per procedure",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "AAFP / NSQIP — Common surgical procedure mortality rates",
+        "url": "https://www.aafp.org/",
+        "publisher": "American Academy of Family Physicians"
+      },
+      "tags": [
+        "pediatric",
+        "surgery"
+      ]
+    },
+    {
       "slug": "bls:all-workers-year-2023",
       "name": "All US workers (average) (per FTE year, 2023)",
       "description": null,
@@ -3706,6 +4265,83 @@
       "tags": [
         "baseline",
         "occupation"
+      ]
+    },
+    {
+      "slug": "envm:dui-fatal-us-year",
+      "name": "Alcohol-impaired-driving fatality (US, per resident-year)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 35.544938787697824,
+      "exposure": "per_year",
+      "exposureDetail": "11,904 drunk-driving deaths in 2024.",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "11,904 drunk-driving deaths in 2024.",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "NHTSA — Alcohol-Impaired Driving 2023 Data (Pub. 813713)",
+        "url": "https://crashstats.nhtsa.dot.gov/Api/Public/Publication/813713",
+        "publisher": "US DOT NHTSA"
+      },
+      "tags": [
+        "alcohol",
+        "baseline",
+        "driving"
+      ]
+    },
+    {
+      "slug": "pharma:benzo-od-us-year",
+      "name": "Benzodiazepine-involved overdose (US, per resident-year)",
+      "description": null,
+      "category": "drugs",
+      "micromorts": 35.83159151985667,
+      "exposure": "per_year",
+      "exposureDetail": "~12,000 benzo-involved overdose deaths/yr in recent CDC data.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "~12,000 benzo-involved overdose deaths/yr in recent CDC data.",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "CDC NCHS — Benzodiazepine overdose deaths",
+        "url": "https://www.cdc.gov/nchs/data/nvsr/nvsr67/nvsr67_09-508.pdf",
+        "publisher": "US CDC NCHS"
+      },
+      "tags": [
+        "depressant",
+        "drugs",
+        "pharmaceutical"
+      ]
+    },
+    {
+      "slug": "road-global:germany-2022",
+      "name": "Road traffic death — Germany (2022)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 37.0,
+      "exposure": "per_year",
+      "exposureDetail": "Per-resident road traffic mortality, Germany",
+      "population": null,
+      "region": "Germany",
+      "year": 2022,
+      "originalValue": "3.7/100,000/year",
+      "originalUnit": "road traffic deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO — Global Status Report on Road Safety 2023",
+        "url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "road"
       ]
     },
     {
@@ -3756,6 +4392,32 @@
         "animal",
         "ocean",
         "surfing"
+      ]
+    },
+    {
+      "slug": "animg:snakebite-india",
+      "name": "Snakebite envenoming (India per resident-year)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 41.42857142857143,
+      "exposure": "per_year",
+      "exposureDetail": "Suraweera 2020: average 58,000 snakebite deaths/year in India 2000-2019.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "~58,000 deaths/yr / 1,400,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Suraweera et al. 2020 (eLife) — India snakebite deaths",
+        "url": "https://elifesciences.org/articles/54076",
+        "publisher": "eLife"
+      },
+      "tags": [
+        "animal",
+        "snake",
+        "venomous"
       ]
     },
     {
@@ -4062,6 +4724,31 @@
       ]
     },
     {
+      "slug": "envm:wildfire-pm25-us-year",
+      "name": "Wildfire smoke PM2.5 (US average, per resident-year)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 71.96177963571215,
+      "exposure": "per_year",
+      "exposureDetail": "≈24,100 US deaths/yr attributable to wildfire PM2.5.",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "≈24,100 US deaths/yr attributable to wildfire PM2.5.",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Science Advances 2024 — California wildfire PM2.5 mortality",
+        "url": "https://www.science.org/doi/10.1126/sciadv.adl1252",
+        "publisher": "Science Advances"
+      },
+      "tags": [
+        "air-quality",
+        "wildfire"
+      ]
+    },
+    {
       "slug": "wiki:paragliding-turkey",
       "name": "Paragliding (Turkey)",
       "description": null,
@@ -4316,6 +5003,32 @@
       ]
     },
     {
+      "slug": "animg:mosquito-global",
+      "name": "Mosquito-borne diseases (global average per resident-year)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 91.19496855345912,
+      "exposure": "per_year",
+      "exposureDetail": "≥725k annual global deaths from mosquito-borne diseases.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "~725,000 deaths/yr / 7,950,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "WHO — Vector-borne diseases",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/vector-borne-diseases",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "animal",
+        "insects",
+        "vector"
+      ]
+    },
+    {
       "slug": "wiki:covid-inf-age25",
       "name": "COVID-19 infection, age 25",
       "description": null,
@@ -4539,6 +5252,31 @@
       ]
     },
     {
+      "slug": "road-global:india-2022",
+      "name": "Road traffic death — India (2022)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 120.0,
+      "exposure": "per_year",
+      "exposureDetail": "Per-resident road traffic mortality, India",
+      "population": null,
+      "region": "India",
+      "year": 2022,
+      "originalValue": "12.0/100,000/year",
+      "originalUnit": "road traffic deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO — Global Status Report on Road Safety 2023",
+        "url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "road"
+      ]
+    },
+    {
       "slug": "nhtsa:us-road-per-capita-year-2023",
       "name": "US road fatality (average resident, 2023)",
       "description": null,
@@ -4565,6 +5303,31 @@
       ]
     },
     {
+      "slug": "envm:wildfire-pm25-california-year",
+      "name": "Wildfire smoke PM2.5 (California average, per resident-year)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 122.33100233100234,
+      "exposure": "per_year",
+      "exposureDetail": "≈52,480 attributable deaths 2008-2018 ÷ 11 yrs ÷ CA pop.",
+      "population": null,
+      "region": "US",
+      "year": null,
+      "originalValue": "≈52,480 attributable deaths 2008-2018 ÷ 11 yrs ÷ CA pop.",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Science Advances 2024 — California wildfire PM2.5 mortality",
+        "url": "https://www.science.org/doi/10.1126/sciadv.adl1252",
+        "publisher": "Science Advances"
+      },
+      "tags": [
+        "air-quality",
+        "wildfire"
+      ]
+    },
+    {
       "slug": "who-suicide:germany-2022",
       "name": "Suicide — Germany (2022)",
       "description": null,
@@ -4588,6 +5351,31 @@
         "country",
         "suicide",
         "violence"
+      ]
+    },
+    {
+      "slug": "road-global:us-2022",
+      "name": "Road traffic death — United States (2022)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 129.0,
+      "exposure": "per_year",
+      "exposureDetail": "Per-resident road traffic mortality, United States",
+      "population": null,
+      "region": "United States",
+      "year": 2022,
+      "originalValue": "12.9/100,000/year",
+      "originalUnit": "road traffic deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO — Global Status Report on Road Safety 2023",
+        "url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "road"
       ]
     },
     {
@@ -4741,6 +5529,31 @@
       ]
     },
     {
+      "slug": "road-global:pakistan-2022",
+      "name": "Road traffic death — Pakistan (2022)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 143.0,
+      "exposure": "per_year",
+      "exposureDetail": "Per-resident road traffic mortality, Pakistan",
+      "population": null,
+      "region": "Pakistan",
+      "year": 2022,
+      "originalValue": "14.3/100,000/year",
+      "originalUnit": "road traffic deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO — Global Status Report on Road Safety 2023",
+        "url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "road"
+      ]
+    },
+    {
       "slug": "cdc:firearm-total-us-2022",
       "name": "Firearm death (all intents) (US, 2022)",
       "description": null,
@@ -4762,6 +5575,56 @@
       },
       "tags": [
         "firearms"
+      ]
+    },
+    {
+      "slug": "road-global:world-2022",
+      "name": "Road traffic death — World (avg) (2022)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 150.0,
+      "exposure": "per_year",
+      "exposureDetail": "Per-resident road traffic mortality, World (avg)",
+      "population": null,
+      "region": "World (avg)",
+      "year": 2022,
+      "originalValue": "15.0/100,000/year",
+      "originalUnit": "road traffic deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO — Global Status Report on Road Safety 2023",
+        "url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "road"
+      ]
+    },
+    {
+      "slug": "road-global:russia-2022",
+      "name": "Road traffic death — Russia (2022)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 150.0,
+      "exposure": "per_year",
+      "exposureDetail": "Per-resident road traffic mortality, Russia",
+      "population": null,
+      "region": "Russia",
+      "year": 2022,
+      "originalValue": "15.0/100,000/year",
+      "originalUnit": "road traffic deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO — Global Status Report on Road Safety 2023",
+        "url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "road"
       ]
     },
     {
@@ -4868,6 +5731,31 @@
       ]
     },
     {
+      "slug": "road-global:brazil-2022",
+      "name": "Road traffic death — Brazil (2022)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 163.0,
+      "exposure": "per_year",
+      "exposureDetail": "Per-resident road traffic mortality, Brazil",
+      "population": null,
+      "region": "Brazil",
+      "year": 2022,
+      "originalValue": "16.3/100,000/year",
+      "originalUnit": "road traffic deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO — Global Status Report on Road Safety 2023",
+        "url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "road"
+      ]
+    },
+    {
       "slug": "global:tb-world-2022",
       "name": "Tuberculosis (global average) (2022)",
       "description": null,
@@ -4971,6 +5859,31 @@
       ]
     },
     {
+      "slug": "road-global:china-2022",
+      "name": "Road traffic death — China (2022)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 174.0,
+      "exposure": "per_year",
+      "exposureDetail": "Per-resident road traffic mortality, China",
+      "population": null,
+      "region": "China",
+      "year": 2022,
+      "originalValue": "17.4/100,000/year",
+      "originalUnit": "road traffic deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO — Global Status Report on Road Safety 2023",
+        "url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "road"
+      ]
+    },
+    {
       "slug": "resp:firefighter-suicide",
       "name": "Firefighter suicide (US, per FTE year)",
       "description": null,
@@ -4994,6 +5907,31 @@
         "firefighter",
         "occupation",
         "suicide"
+      ]
+    },
+    {
+      "slug": "medm:knee-replacement",
+      "name": "Total knee replacement (per surgery, 30-day mortality)",
+      "description": null,
+      "category": "medical",
+      "micromorts": 200.0,
+      "exposure": "per_event",
+      "exposureDetail": "30-day mortality ≈ 0.02% in modern cohorts.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "2/10,000",
+      "originalUnit": "deaths per procedure",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "AAFP / NSQIP — Common surgical procedure mortality rates",
+        "url": "https://www.aafp.org/",
+        "publisher": "American Academy of Family Physicians"
+      },
+      "tags": [
+        "orthopedic",
+        "surgery"
       ]
     },
     {
@@ -5048,6 +5986,57 @@
       ]
     },
     {
+      "slug": "road-global:nigeria-2022",
+      "name": "Road traffic death — Nigeria (2022)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 214.0,
+      "exposure": "per_year",
+      "exposureDetail": "Per-resident road traffic mortality, Nigeria",
+      "population": null,
+      "region": "Nigeria",
+      "year": 2022,
+      "originalValue": "21.4/100,000/year",
+      "originalUnit": "road traffic deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO — Global Status Report on Road Safety 2023",
+        "url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "road"
+      ]
+    },
+    {
+      "slug": "pharma:fentanyl-od-us-year",
+      "name": "Fentanyl / synthetic opioid overdose (US, per resident-year)",
+      "description": null,
+      "category": "drugs",
+      "micromorts": 217.30665870409078,
+      "exposure": "per_year",
+      "exposureDetail": "72,776 synthetic-opioid overdose deaths in 2023 (CDC).",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "72,776 synthetic-opioid overdose deaths in 2023 (CDC).",
+      "originalUnit": "per_year",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "NIDA — Fentanyl & synthetic opioid overdose trends",
+        "url": "https://nida.nih.gov/research-topics/trends-statistics/overdose-death-rates",
+        "publisher": "NIH NIDA"
+      },
+      "tags": [
+        "drugs",
+        "opioid",
+        "pharmaceutical"
+      ]
+    },
+    {
       "slug": "cdc:overdose-synth-opioids-us-2023",
       "name": "Synthetic-opioid overdose (mainly fentanyl) (US, 2023)",
       "description": null,
@@ -5070,6 +6059,31 @@
       "tags": [
         "drugs",
         "opioids"
+      ]
+    },
+    {
+      "slug": "road-global:south-africa-2022",
+      "name": "Road traffic death — South Africa (2022)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 222.0,
+      "exposure": "per_year",
+      "exposureDetail": "Per-resident road traffic mortality, South Africa",
+      "population": null,
+      "region": "South Africa",
+      "year": 2022,
+      "originalValue": "22.2/100,000/year",
+      "originalUnit": "road traffic deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO — Global Status Report on Road Safety 2023",
+        "url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "road"
       ]
     },
     {
@@ -5222,6 +6236,31 @@
         "country",
         "homicide",
         "violence"
+      ]
+    },
+    {
+      "slug": "road-global:thailand-2022",
+      "name": "Road traffic death — Thailand (2022)",
+      "description": null,
+      "category": "transport",
+      "micromorts": 254.0,
+      "exposure": "per_year",
+      "exposureDetail": "Per-resident road traffic mortality, Thailand",
+      "population": null,
+      "region": "Thailand",
+      "year": 2022,
+      "originalValue": "25.4/100,000/year",
+      "originalUnit": "road traffic deaths per 100k per year",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "WHO — Global Status Report on Road Safety 2023",
+        "url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "country",
+        "road"
       ]
     },
     {
@@ -5655,6 +6694,33 @@
       ]
     },
     {
+      "slug": "animg:mosquito-africa",
+      "name": "Mosquito-borne diseases (Africa average per resident-year)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 406.42857142857144,
+      "exposure": "per_year",
+      "exposureDetail": "Africa accounts for ~95% of global malaria deaths.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "~569,000 deaths/yr / 1,400,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "WHO — Vector-borne diseases",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/vector-borne-diseases",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "africa",
+        "animal",
+        "insects",
+        "vector"
+      ]
+    },
+    {
       "slug": "bls:refuse-year-2023",
       "name": "Refuse & recyclable material collectors (per FTE year, 2023)",
       "description": null,
@@ -5903,6 +6969,81 @@
       },
       "tags": [
         "surgery"
+      ]
+    },
+    {
+      "slug": "medm:hip-replacement",
+      "name": "Total hip replacement (per surgery, 30-day mortality)",
+      "description": null,
+      "category": "medical",
+      "micromorts": 500.0,
+      "exposure": "per_event",
+      "exposureDetail": "30-day mortality ≈ 0.05% in modern cohorts.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "5/10,000",
+      "originalUnit": "deaths per procedure",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "AAFP / NSQIP — Common surgical procedure mortality rates",
+        "url": "https://www.aafp.org/",
+        "publisher": "American Academy of Family Physicians"
+      },
+      "tags": [
+        "orthopedic",
+        "surgery"
+      ]
+    },
+    {
+      "slug": "cancer:thyroid-us-2024",
+      "name": "Thyroid cancer (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 500.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer",
+      "population": null,
+      "region": "US",
+      "year": 2024,
+      "originalValue": "0.05% lifetime mortality",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "NCI SEER Cancer Stat Facts — specific cancer sites",
+        "url": "https://seer.cancer.gov/statfacts/",
+        "publisher": "NCI SEER"
+      },
+      "tags": [
+        "cancer",
+        "endocrine"
+      ]
+    },
+    {
+      "slug": "xtr:free-solo-climb",
+      "name": "Free solo rock climb (per attempt)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 500.0,
+      "exposure": "per_climb",
+      "exposureDetail": "Approx 1 fatal fall per 2,000 free-solo attempts.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "1 / 2,000",
+      "originalUnit": "per_climb",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "HardClimbs.info / AAC — Free solo death statistics",
+        "url": "https://hardclimbs.info/free-solo-deaths/",
+        "publisher": "American Alpine Club / Climbing magazine"
+      },
+      "tags": [
+        "climbing",
+        "extreme-sports"
       ]
     },
     {
@@ -6237,6 +7378,31 @@
         "hiv",
         "sexual",
         "transmission-not-mortality"
+      ]
+    },
+    {
+      "slug": "medm:hysterectomy",
+      "name": "Hysterectomy (per surgery, 30-day mortality)",
+      "description": null,
+      "category": "medical",
+      "micromorts": 800.0,
+      "exposure": "per_event",
+      "exposureDetail": "30-day mortality ≈ 0.08%, varies by indication.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "8/10,000",
+      "originalUnit": "deaths per procedure",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "AAFP / NSQIP — Common surgical procedure mortality rates",
+        "url": "https://www.aafp.org/",
+        "publisher": "American Academy of Family Physicians"
+      },
+      "tags": [
+        "gynecologic",
+        "surgery"
       ]
     },
     {
@@ -6901,6 +8067,56 @@
       ]
     },
     {
+      "slug": "cancer:melanoma-us-2024",
+      "name": "Melanoma (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 3000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer",
+      "population": null,
+      "region": "US",
+      "year": 2024,
+      "originalValue": "0.30% lifetime mortality",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "NCI SEER Cancer Stat Facts — specific cancer sites",
+        "url": "https://seer.cancer.gov/statfacts/",
+        "publisher": "NCI SEER"
+      },
+      "tags": [
+        "cancer",
+        "skin"
+      ]
+    },
+    {
+      "slug": "cancer:glioma-gbm-us-2024",
+      "name": "Glioblastoma (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 3000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer",
+      "population": null,
+      "region": "US",
+      "year": 2024,
+      "originalValue": "0.30% lifetime mortality",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "NCI SEER Cancer Stat Facts — specific cancer sites",
+        "url": "https://seer.cancer.gov/statfacts/",
+        "publisher": "NCI SEER"
+      },
+      "tags": [
+        "cancer",
+        "neuro"
+      ]
+    },
+    {
       "slug": "falls:falls-85plus-women",
       "name": "Fatal fall, women 85+ (US)",
       "description": null,
@@ -7028,6 +8244,30 @@
         "donor",
         "medical",
         "surgery"
+      ]
+    },
+    {
+      "slug": "medm:stillbirth-spontaneous",
+      "name": "Stillbirth after spontaneous conception (per pregnancy)",
+      "description": null,
+      "category": "medical",
+      "micromorts": 3700.0,
+      "exposure": "per_event",
+      "exposureDetail": "3.7 stillbirths per 1,000 fertile-women pregnancies — ~4× lower than IVF.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "3.7/1,000",
+      "originalUnit": "deaths per procedure",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Aarts et al. 2010 — IVF/ICSI stillbirth risk",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20179321/",
+        "publisher": "Human Reproduction"
+      },
+      "tags": [
+        "pregnancy"
       ]
     },
     {
@@ -7182,6 +8422,106 @@
         "child",
         "country",
         "u5mr"
+      ]
+    },
+    {
+      "slug": "cancer:brain-all-us-2024",
+      "name": "Brain & nervous system cancer (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 4000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer",
+      "population": null,
+      "region": "US",
+      "year": 2024,
+      "originalValue": "0.40% lifetime mortality",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "NCI SEER Cancer Stat Facts — specific cancer sites",
+        "url": "https://seer.cancer.gov/statfacts/",
+        "publisher": "NCI SEER"
+      },
+      "tags": [
+        "cancer",
+        "neuro"
+      ]
+    },
+    {
+      "slug": "cancer:kidney-us-2024",
+      "name": "Kidney cancer (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 4000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer",
+      "population": null,
+      "region": "US",
+      "year": 2024,
+      "originalValue": "0.40% lifetime mortality",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "NCI SEER Cancer Stat Facts — specific cancer sites",
+        "url": "https://seer.cancer.gov/statfacts/",
+        "publisher": "NCI SEER"
+      },
+      "tags": [
+        "cancer",
+        "gu"
+      ]
+    },
+    {
+      "slug": "cancer:multiple-myeloma-us-2024",
+      "name": "Multiple myeloma (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 4000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer",
+      "population": null,
+      "region": "US",
+      "year": 2024,
+      "originalValue": "0.40% lifetime mortality",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "NCI SEER Cancer Stat Facts — specific cancer sites",
+        "url": "https://seer.cancer.gov/statfacts/",
+        "publisher": "NCI SEER"
+      },
+      "tags": [
+        "blood",
+        "cancer"
+      ]
+    },
+    {
+      "slug": "cancer:stomach-us-2024",
+      "name": "Stomach cancer (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 4000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer",
+      "population": null,
+      "region": "US",
+      "year": 2024,
+      "originalValue": "0.40% lifetime mortality",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "NCI SEER Cancer Stat Facts — specific cancer sites",
+        "url": "https://seer.cancer.gov/statfacts/",
+        "publisher": "NCI SEER"
+      },
+      "tags": [
+        "cancer",
+        "gi"
       ]
     },
     {
@@ -7340,6 +8680,56 @@
       ]
     },
     {
+      "slug": "cancer:esophagus-us-2024",
+      "name": "Esophageal cancer (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 5000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer",
+      "population": null,
+      "region": "US",
+      "year": 2024,
+      "originalValue": "0.50% lifetime mortality",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "NCI SEER Cancer Stat Facts — specific cancer sites",
+        "url": "https://seer.cancer.gov/statfacts/",
+        "publisher": "NCI SEER"
+      },
+      "tags": [
+        "cancer",
+        "gi"
+      ]
+    },
+    {
+      "slug": "cancer:bladder-us-2024",
+      "name": "Bladder cancer (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 5000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer",
+      "population": null,
+      "region": "US",
+      "year": 2024,
+      "originalValue": "0.50% lifetime mortality",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "NCI SEER Cancer Stat Facts — specific cancer sites",
+        "url": "https://seer.cancer.gov/statfacts/",
+        "publisher": "NCI SEER"
+      },
+      "tags": [
+        "cancer",
+        "gu"
+      ]
+    },
+    {
       "slug": "space:lunar-1-year",
       "name": "Lunar surface — 1 year (radiation)",
       "description": null,
@@ -7464,6 +8854,31 @@
       "tags": [
         "maternal",
         "pregnancy"
+      ]
+    },
+    {
+      "slug": "cancer:non-hodgkin-us-2024",
+      "name": "Non-Hodgkin lymphoma (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 6000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer",
+      "population": null,
+      "region": "US",
+      "year": 2024,
+      "originalValue": "0.60% lifetime mortality",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "NCI SEER Cancer Stat Facts — specific cancer sites",
+        "url": "https://seer.cancer.gov/statfacts/",
+        "publisher": "NCI SEER"
+      },
+      "tags": [
+        "blood",
+        "cancer"
       ]
     },
     {
@@ -7773,6 +9188,57 @@
       ]
     },
     {
+      "slug": "hist:wwii-us-soldier",
+      "name": "US WWII soldier (per 1000 combatants — KIA)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 8600.0,
+      "exposure": "per_event",
+      "exposureDetail": "8.6 KIA per 1,000 US combatants; 3 additional non-combat deaths.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "8.6 KIA per 1,000 US combatants; 3 additional non-combat deaths.",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "National WWII Museum — US Military by the Numbers",
+        "url": "https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-us-military-numbers",
+        "publisher": "National WWII Museum"
+      },
+      "tags": [
+        "historical",
+        "war",
+        "wwii"
+      ]
+    },
+    {
+      "slug": "cancer:ovarian-us-2024",
+      "name": "Ovarian cancer (lifetime, women)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 8600.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer",
+      "population": null,
+      "region": "US",
+      "year": 2024,
+      "originalValue": "0.86% lifetime mortality",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "NCI SEER Cancer Stat Facts — specific cancer sites",
+        "url": "https://seer.cancer.gov/statfacts/",
+        "publisher": "NCI SEER"
+      },
+      "tags": [
+        "cancer",
+        "demographic"
+      ]
+    },
+    {
       "slug": "wiki:baseline-all-causes-eaw-year",
       "name": "All causes baseline (England & Wales)",
       "description": null,
@@ -7922,6 +9388,57 @@
       "tags": [
         "cancer",
         "lifetime"
+      ]
+    },
+    {
+      "slug": "cancer:pancreatic-us-2024",
+      "name": "Pancreatic cancer (lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 11000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Cumulative US lifetime probability of dying from this cancer",
+      "population": null,
+      "region": "US",
+      "year": 2024,
+      "originalValue": "1.10% lifetime mortality",
+      "originalUnit": "lifetime mortality probability",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "NCI SEER Cancer Stat Facts — specific cancer sites",
+        "url": "https://seer.cancer.gov/statfacts/",
+        "publisher": "NCI SEER"
+      },
+      "tags": [
+        "cancer",
+        "gi"
+      ]
+    },
+    {
+      "slug": "hist:wwii-us-soldier-allcause",
+      "name": "US WWII soldier (all-cause, per combatant)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 11600.0,
+      "exposure": "per_event",
+      "exposureDetail": "KIA + non-combat deaths per 1,000 combatants.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "KIA + non-combat deaths per 1,000 combatants.",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "National WWII Museum — US Military by the Numbers",
+        "url": "https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-us-military-numbers",
+        "publisher": "National WWII Museum"
+      },
+      "tags": [
+        "historical",
+        "war",
+        "wwii"
       ]
     },
     {
@@ -8127,6 +9644,31 @@
         "aviation",
         "historical",
         "space"
+      ]
+    },
+    {
+      "slug": "medm:ivf-stillbirth",
+      "name": "Stillbirth following IVF/ICSI (per pregnancy)",
+      "description": null,
+      "category": "medical",
+      "micromorts": 16200.0,
+      "exposure": "per_event",
+      "exposureDetail": "16.2 stillbirths per 1,000 IVF/ICSI pregnancies.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "16.2/1,000",
+      "originalUnit": "deaths per procedure",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Aarts et al. 2010 — IVF/ICSI stillbirth risk",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20179321/",
+        "publisher": "Human Reproduction"
+      },
+      "tags": [
+        "ivf",
+        "pregnancy"
       ]
     },
     {
@@ -8439,6 +9981,58 @@
       ]
     },
     {
+      "slug": "hist:spanish-flu-1918-19",
+      "name": "1918 Spanish-flu pandemic (per person, 2-year exposure)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 30000.0,
+      "exposure": "per_event",
+      "exposureDetail": "~50 million deaths on 1.8 billion population — ~3% global mortality.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "~50 million deaths on 1.8 billion population — ~3% global mortality.",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Wikipedia — 1918 Spanish-flu pandemic",
+        "url": "https://en.wikipedia.org/wiki/Spanish_flu",
+        "publisher": "Wikipedia"
+      },
+      "tags": [
+        "flu",
+        "historical",
+        "pandemic"
+      ]
+    },
+    {
+      "slug": "pharma:illicit-fentanyl-dose",
+      "name": "Illicit fentanyl (single street dose, opioid-naive)",
+      "description": null,
+      "category": "drugs",
+      "micromorts": 30000.0,
+      "exposure": "per_event",
+      "exposureDetail": "Crude estimate: ~3% mortality per illicit dose in opioid-naive users.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "Crude estimate: ~3% mortality per illicit dose in opioid-naive users.",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "NIDA — Fentanyl & synthetic opioid overdose trends",
+        "url": "https://nida.nih.gov/research-topics/trends-statistics/overdose-death-rates",
+        "publisher": "NIH NIDA"
+      },
+      "tags": [
+        "drugs",
+        "fentanyl",
+        "opioid"
+      ]
+    },
+    {
       "slug": "cdc-life:age-075-us-2022",
       "name": "All-cause mortality at age 75 (US, 2022)",
       "description": null,
@@ -8747,6 +10341,32 @@
         "mars",
         "radiation",
         "space"
+      ]
+    },
+    {
+      "slug": "life:overweight-man-cvd",
+      "name": "Overweight man (BMI 25-30, lifetime CVD excess)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 50000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Hazard ratio 1.21 for CVD vs normal weight; rough lifetime µmt.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "Hazard ratio 1.21 for CVD vs normal weight; rough lifetime µmt.",
+      "originalUnit": "lifetime excess mortality (µmt)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Khan et al. 2018 — Lifetime CVD risk by BMI",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5875319/",
+        "publisher": "JAMA Cardiology"
+      },
+      "tags": [
+        "cardiovascular",
+        "lifestyle",
+        "obesity"
       ]
     },
     {
@@ -9119,6 +10739,57 @@
       ]
     },
     {
+      "slug": "inf:c-difficile-30d",
+      "name": "C. difficile infection (per case, 30-day)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 130000.0,
+      "exposure": "per_event",
+      "exposureDetail": "Approximate 30-day mortality across cohorts; varies 7-20%.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "13.0% case-fatality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "UKHSA — 30-day all-cause mortality after MRSA/MSSA/C diff (2022-23)",
+        "url": "https://www.gov.uk/government/statistics/mrsa-mssa-and-e-coli-bacteraemia-and-c-difficile-infection-30-day-all-cause-fatality",
+        "publisher": "UK Health Security Agency"
+      },
+      "tags": [
+        "cdiff",
+        "infection"
+      ]
+    },
+    {
+      "slug": "hist:wwii-civilian-soviet",
+      "name": "Soviet civilian, WWII years (per resident)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 130000.0,
+      "exposure": "per_event",
+      "exposureDetail": "~13% mortality 1941-45 from war causes.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "~13% mortality 1941-45 from war causes.",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "National WWII Museum — US Military by the Numbers",
+        "url": "https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-us-military-numbers",
+        "publisher": "National WWII Museum"
+      },
+      "tags": [
+        "historical",
+        "war",
+        "wwii"
+      ]
+    },
+    {
       "slug": "cdc-life:age-090-us-2022",
       "name": "All-cause mortality at age 90 (US, 2022)",
       "description": null,
@@ -9169,6 +10840,32 @@
       ]
     },
     {
+      "slug": "life:obese-man-cvd",
+      "name": "Obese man (BMI 30-35, lifetime CVD excess)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 150000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Hazard ratio 1.67 for CVD vs normal weight.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "Hazard ratio 1.67 for CVD vs normal weight.",
+      "originalUnit": "lifetime excess mortality (µmt)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Khan et al. 2018 — Lifetime CVD risk by BMI",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5875319/",
+        "publisher": "JAMA Cardiology"
+      },
+      "tags": [
+        "cardiovascular",
+        "lifestyle",
+        "obesity"
+      ]
+    },
+    {
       "slug": "ref:russian-roulette",
       "name": "Russian roulette (one pull, 6-chamber revolver)",
       "description": null,
@@ -9191,6 +10888,32 @@
       "tags": [
         "anchor",
         "reference"
+      ]
+    },
+    {
+      "slug": "inf:rabies-dog-bite-endemic",
+      "name": "Dog bite in rabies-endemic area (no PEP)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 180000.0,
+      "exposure": "per_event",
+      "exposureDetail": "~15-20% of untreated bites by a confirmed-rabid dog result in rabies death.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "18.0% case-fatality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "WHO — Rabies fact sheet",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "animal",
+        "infection",
+        "rabies"
       ]
     },
     {
@@ -9271,6 +10994,82 @@
       ]
     },
     {
+      "slug": "hist:civil-war-soldier",
+      "name": "US Civil War soldier (per combatant)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 200000.0,
+      "exposure": "per_event",
+      "exposureDetail": "~20% mortality among combatants — far higher than any later US conflict.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "~20% mortality among combatants — far higher than any later US conflict.",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "National WWII Museum — US Military by the Numbers",
+        "url": "https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-us-military-numbers",
+        "publisher": "National WWII Museum"
+      },
+      "tags": [
+        "civil-war",
+        "historical",
+        "war"
+      ]
+    },
+    {
+      "slug": "life:sedentary-lifestyle",
+      "name": "Sedentary lifestyle (vs active, lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 200000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Estimated ~2 years life-expectancy loss from never meeting activity guidelines.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "Estimated ~2 years life-expectancy loss from never meeting activity guidelines.",
+      "originalUnit": "lifetime excess mortality (µmt)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Bhaskaran et al. 2018 — UK BMI cohort (3.6M adults)",
+        "url": "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(18)30288-2/fulltext",
+        "publisher": "Lancet Diabetes & Endocrinology"
+      },
+      "tags": [
+        "exercise",
+        "lifestyle"
+      ]
+    },
+    {
+      "slug": "pharma:acetaminophen-single-dose-10g",
+      "name": "Acute acetaminophen ingestion ≥10g (per event, untreated)",
+      "description": null,
+      "category": "drugs",
+      "micromorts": 200000.0,
+      "exposure": "per_event",
+      "exposureDetail": "Without treatment >10 g ingestion causes severe hepatic toxicity in ~20% of adults.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "Without treatment >10 g ingestion causes severe hepatic toxicity in ~20% of adults.",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "StatPearls — Acetaminophen Toxicity",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK441917/",
+        "publisher": "StatPearls"
+      },
+      "tags": [
+        "drugs",
+        "pharmaceutical"
+      ]
+    },
+    {
       "slug": "cancer-life:any-cancer-male-us-2024",
       "name": "Any cancer death (lifetime, male)",
       "description": null,
@@ -9348,6 +11147,57 @@
       ]
     },
     {
+      "slug": "hist:wwii-soviet-soldier",
+      "name": "Soviet WWII soldier (per combatant)",
+      "description": null,
+      "category": "violence",
+      "micromorts": 250000.0,
+      "exposure": "per_event",
+      "exposureDetail": "~25% mortality among Soviet combatants — worst of any major belligerent.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "~25% mortality among Soviet combatants — worst of any major belligerent.",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "National WWII Museum — US Military by the Numbers",
+        "url": "https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-us-military-numbers",
+        "publisher": "National WWII Museum"
+      },
+      "tags": [
+        "historical",
+        "war",
+        "wwii"
+      ]
+    },
+    {
+      "slug": "inf:mssa-bacteremia-30d",
+      "name": "MSSA bacteraemia (per episode, 30-day)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 270000.0,
+      "exposure": "per_event",
+      "exposureDetail": "30-day all-cause mortality ≈ 27%.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "27.0% case-fatality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "UKHSA — 30-day all-cause mortality after MRSA/MSSA/C diff (2022-23)",
+        "url": "https://www.gov.uk/government/statistics/mrsa-mssa-and-e-coli-bacteraemia-and-c-difficile-infection-30-day-all-cause-fatality",
+        "publisher": "UK Health Security Agency"
+      },
+      "tags": [
+        "infection",
+        "mrsa"
+      ]
+    },
+    {
       "slug": "food:fugu-unlicensed",
       "name": "Fugu (pufferfish) — amateur preparation",
       "description": null,
@@ -9371,6 +11221,136 @@
         "food",
         "high-risk",
         "seafood"
+      ]
+    },
+    {
+      "slug": "inf:mrsa-bacteremia-30d",
+      "name": "MRSA bacteraemia (per episode, 30-day)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 340000.0,
+      "exposure": "per_event",
+      "exposureDetail": "30-day all-cause mortality ≈ 34% (UK 2022-23).",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "34.0% case-fatality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "UKHSA — 30-day all-cause mortality after MRSA/MSSA/C diff (2022-23)",
+        "url": "https://www.gov.uk/government/statistics/mrsa-mssa-and-e-coli-bacteraemia-and-c-difficile-infection-30-day-all-cause-fatality",
+        "publisher": "UK Health Security Agency"
+      },
+      "tags": [
+        "infection",
+        "mrsa"
+      ]
+    },
+    {
+      "slug": "life:obese-woman-lifetime",
+      "name": "Obese woman (BMI 30+, lifetime excess mortality)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 350000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "3.5 years life-expectancy lost from age 40 (UK 3.6M cohort).",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "3.5 years life-expectancy lost from age 40 (UK 3.6M cohort).",
+      "originalUnit": "lifetime excess mortality (µmt)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Bhaskaran et al. 2018 — UK BMI cohort (3.6M adults)",
+        "url": "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(18)30288-2/fulltext",
+        "publisher": "Lancet Diabetes & Endocrinology"
+      },
+      "tags": [
+        "demographic",
+        "lifestyle",
+        "lifetime",
+        "obesity"
+      ]
+    },
+    {
+      "slug": "hist:hindenburg-passenger",
+      "name": "Hindenburg airship passenger (1937)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 360000.0,
+      "exposure": "per_event",
+      "exposureDetail": "36 of 97 on board perished; survival 64% — better than Titanic.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "36 of 97 on board perished; survival 64% — better than Titanic.",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Wikipedia — Titanic & Hindenburg disaster pages",
+        "url": "https://en.wikipedia.org/wiki/Hindenburg_disaster",
+        "publisher": "Wikipedia"
+      },
+      "tags": [
+        "aviation",
+        "disaster",
+        "historical"
+      ]
+    },
+    {
+      "slug": "inf:sepsis-severe",
+      "name": "Severe sepsis / septic shock (per episode)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 400000.0,
+      "exposure": "per_event",
+      "exposureDetail": "Case-fatality 25-50% depending on severity.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "40.0% case-fatality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "StatPearls — MRSA epidemiology",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK482221/",
+        "publisher": "StatPearls"
+      },
+      "tags": [
+        "infection",
+        "sepsis"
+      ]
+    },
+    {
+      "slug": "life:obese-man-lifetime",
+      "name": "Obese man (BMI 30+, lifetime excess mortality)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 420000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "4.2 years life-expectancy lost from age 40 (UK 3.6M cohort).",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "4.2 years life-expectancy lost from age 40 (UK 3.6M cohort).",
+      "originalUnit": "lifetime excess mortality (µmt)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Bhaskaran et al. 2018 — UK BMI cohort (3.6M adults)",
+        "url": "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(18)30288-2/fulltext",
+        "publisher": "Lancet Diabetes & Endocrinology"
+      },
+      "tags": [
+        "demographic",
+        "lifestyle",
+        "lifetime",
+        "obesity"
       ]
     },
     {
@@ -9400,6 +11380,83 @@
       ]
     },
     {
+      "slug": "inf:tetanus-untreated",
+      "name": "Tetanus (per case, no medical care)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 500000.0,
+      "exposure": "per_event",
+      "exposureDetail": "Generalised tetanus case-fatality ≈ 50% without modern care.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "50.0% case-fatality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "CDC Pink Book — Tetanus",
+        "url": "https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-21-tetanus.html",
+        "publisher": "US CDC"
+      },
+      "tags": [
+        "infection",
+        "tetanus"
+      ]
+    },
+    {
+      "slug": "hist:titanic-passenger",
+      "name": "Titanic passenger (1912)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 680000.0,
+      "exposure": "per_event",
+      "exposureDetail": "1,517 of ~2,224 on board perished — 68% fatality.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "1,517 of ~2,224 on board perished — 68% fatality.",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Wikipedia — Titanic & Hindenburg disaster pages",
+        "url": "https://en.wikipedia.org/wiki/Hindenburg_disaster",
+        "publisher": "Wikipedia"
+      },
+      "tags": [
+        "disaster",
+        "historical",
+        "ship"
+      ]
+    },
+    {
+      "slug": "life:morbid-obese-young-adult",
+      "name": "Morbid obesity (BMI ≥40, young adult, lifetime)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 700000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "≥7 years life-expectancy lost when morbid obesity begins age 18-29.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "≥7 years life-expectancy lost when morbid obesity begins age 18-29.",
+      "originalUnit": "lifetime excess mortality (µmt)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Borrell & Samuel 2014 — US BMI mortality",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3953803/",
+        "publisher": "American Journal of Public Health"
+      },
+      "tags": [
+        "lifestyle",
+        "lifetime",
+        "obesity"
+      ]
+    },
+    {
       "slug": "acute:ohca-witnessed",
       "name": "OHCA, bystander-witnessed (per event)",
       "description": null,
@@ -9422,6 +11479,32 @@
       "tags": [
         "cardiac",
         "ohca"
+      ]
+    },
+    {
+      "slug": "hist:titanic-3rd-class-man",
+      "name": "Titanic 3rd-class male passenger",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 860000.0,
+      "exposure": "per_event",
+      "exposureDetail": "Only ~14% of 3rd-class men (69/476) survived.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "Only ~14% of 3rd-class men (69/476) survived.",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Wikipedia — Titanic & Hindenburg disaster pages",
+        "url": "https://en.wikipedia.org/wiki/Hindenburg_disaster",
+        "publisher": "Wikipedia"
+      },
+      "tags": [
+        "demographic",
+        "historical",
+        "ship"
       ]
     },
     {
@@ -9472,6 +11555,31 @@
       "tags": [
         "cardiac",
         "ohca"
+      ]
+    },
+    {
+      "slug": "inf:rabies-symptomatic",
+      "name": "Rabies (per case once symptoms appear)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 999000.0,
+      "exposure": "per_event",
+      "exposureDetail": "≥99% case-fatality once symptoms appear; preventable by timely PEP.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "99.9% case-fatality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "WHO — Rabies fact sheet",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "infection",
+        "rabies"
       ]
     }
   ]
