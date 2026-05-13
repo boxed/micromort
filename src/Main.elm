@@ -149,7 +149,12 @@ update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
         GotData (Ok rs) ->
-            ( { model | state = Loaded rs }, Cmd.none )
+            ( { model
+                | state = Loaded rs
+                , selected = defaultSelection rs
+              }
+            , Cmd.none
+            )
 
         GotData (Err e) ->
             ( { model | state = Failed (httpError e) }, Cmd.none )
@@ -198,6 +203,25 @@ update msg model =
 
         SetScale s ->
             ( { model | scale = s }, Cmd.none )
+
+
+defaultSelection : List Risk -> Maybe String
+defaultSelection rs =
+    let
+        preferred =
+            [ "wiki:baseline-all-causes-us-day"
+            , "wiki:baseline-all-causes-eaw-day"
+            , "background-mortality-uk-avg-day"
+            ]
+
+        findSlug slug =
+            List.filter (\r -> r.slug == slug) rs
+                |> List.head
+                |> Maybe.map .slug
+    in
+    preferred
+        |> List.filterMap findSlug
+        |> List.head
 
 
 httpError : Http.Error -> String

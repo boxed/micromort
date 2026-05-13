@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 457,
+  "count": 487,
   "risks": [
     {
       "slug": "wiki:train-mile",
@@ -3690,6 +3690,31 @@
       ]
     },
     {
+      "slug": "end:triathlon-overall",
+      "name": "Triathlon (any death, per finisher)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 13.157894736842106,
+      "exposure": "per_event",
+      "exposureDetail": "Recent finisher-mortality estimate: 1 in 76,000.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "1 / 76,000",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "TrainingPeaks — Athlete deaths in triathlon (review)",
+        "url": "https://www.trainingpeaks.com/coach-blog/athlete-deaths-in-triathlon-and-how-to-prevent-them/",
+        "publisher": "TrainingPeaks / endurance coaches"
+      },
+      "tags": [
+        "endurance",
+        "triathlon"
+      ]
+    },
+    {
       "slug": "unodc:homicide-france-2022",
       "name": "Homicide — France (2022)",
       "description": null,
@@ -3813,6 +3838,57 @@
         "country",
         "suicide",
         "violence"
+      ]
+    },
+    {
+      "slug": "end:triathlon-scd",
+      "name": "Triathlon (sudden cardiac death, per participant)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 17.0,
+      "exposure": "per_event",
+      "exposureDetail": "1.7 SCDs per 100k participants; vast majority during swim segment.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "1.7 / 100,000",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "TrainingPeaks — Athlete deaths in triathlon (review)",
+        "url": "https://www.trainingpeaks.com/coach-blog/athlete-deaths-in-triathlon-and-how-to-prevent-them/",
+        "publisher": "TrainingPeaks / endurance coaches"
+      },
+      "tags": [
+        "endurance",
+        "triathlon"
+      ]
+    },
+    {
+      "slug": "diarr:cholera-deaths-world",
+      "name": "Cholera (global avg per resident-year)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 17.9874213836478,
+      "exposure": "per_year",
+      "exposureDetail": "WHO estimated cholera deaths in recent global outbreaks.",
+      "population": null,
+      "region": "world",
+      "year": null,
+      "originalValue": "143,000 deaths/yr / 7,950,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "GBD 2019 + WHO + BMC Public Health 2024 — Diarrheal mortality",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+        "publisher": "World Health Organization / IHME"
+      },
+      "tags": [
+        "cholera",
+        "infection",
+        "wash"
       ]
     },
     {
@@ -4218,6 +4294,32 @@
       ]
     },
     {
+      "slug": "end:triathlon-swim-segment",
+      "name": "Triathlon swim segment (per swim entrant)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 30.3030303030303,
+      "exposure": "per_event",
+      "exposureDetail": "Most triathlon deaths occur within first minutes of swim entry.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "1 / 33,000",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Harris et al. 2017 — Death & cardiac arrest in US triathlon",
+        "url": "https://www.acpjournals.org/doi/10.7326/M17-0847",
+        "publisher": "Annals of Internal Medicine"
+      },
+      "tags": [
+        "endurance",
+        "swim",
+        "triathlon"
+      ]
+    },
+    {
       "slug": "medm:tonsillectomy",
       "name": "Tonsillectomy (per procedure)",
       "description": null,
@@ -4595,6 +4697,56 @@
       },
       "tags": [
         "drugs"
+      ]
+    },
+    {
+      "slug": "end:ironman-no-swim",
+      "name": "Ironman bike+run only (per finisher)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 60.0,
+      "exposure": "per_event",
+      "exposureDetail": "Removing swim drops Ironman risk to ~6 per 100k — comparable to ultramarathon.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "6 / 100,000",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "TrainingPeaks — Athlete deaths in triathlon (review)",
+        "url": "https://www.trainingpeaks.com/coach-blog/athlete-deaths-in-triathlon-and-how-to-prevent-them/",
+        "publisher": "TrainingPeaks / endurance coaches"
+      },
+      "tags": [
+        "endurance",
+        "triathlon"
+      ]
+    },
+    {
+      "slug": "end:ultramarathon",
+      "name": "Ultramarathon (per finisher, average)",
+      "description": null,
+      "category": "activity",
+      "micromorts": 60.0,
+      "exposure": "per_event",
+      "exposureDetail": "Comparable to Ironman without swim, when no mass-casualty events.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "6 / 100,000",
+      "originalUnit": "per_event",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "TrainingPeaks — Athlete deaths in triathlon (review)",
+        "url": "https://www.trainingpeaks.com/coach-blog/athlete-deaths-in-triathlon-and-how-to-prevent-them/",
+        "publisher": "TrainingPeaks / endurance coaches"
+      },
+      "tags": [
+        "endurance",
+        "running"
       ]
     },
     {
@@ -5781,6 +5933,32 @@
       ]
     },
     {
+      "slug": "diarr:diarrheal-world",
+      "name": "Diarrheal disease (global avg per resident-year)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 163.52201257861634,
+      "exposure": "per_year",
+      "exposureDetail": "~1.3 million annual global deaths; concentrated in young children.",
+      "population": null,
+      "region": "world",
+      "year": null,
+      "originalValue": "1,300,000 deaths/yr / 7,950,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "GBD 2019 + WHO + BMC Public Health 2024 — Diarrheal mortality",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+        "publisher": "World Health Organization / IHME"
+      },
+      "tags": [
+        "diarrhea",
+        "infection",
+        "wash"
+      ]
+    },
+    {
       "slug": "med:live-kidney-donor-female",
       "name": "Live kidney donor nephrectomy (female)",
       "description": null,
@@ -6592,6 +6770,32 @@
       ]
     },
     {
+      "slug": "diarr:diarrheal-africa",
+      "name": "Diarrheal disease (Africa avg per resident-year)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 367.8792857142857,
+      "exposure": "per_year",
+      "exposureDetail": "515k annual deaths in WHO African Region (2020 estimate).",
+      "population": null,
+      "region": "africa",
+      "year": null,
+      "originalValue": "515,031 deaths/yr / 1,400,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "GBD 2019 + WHO + BMC Public Health 2024 — Diarrheal mortality",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+        "publisher": "World Health Organization / IHME"
+      },
+      "tags": [
+        "diarrhea",
+        "infection",
+        "wash"
+      ]
+    },
+    {
       "slug": "cdc:stroke-us-2023",
       "name": "Stroke (cerebrovascular) (US, 2023)",
       "description": null,
@@ -7047,6 +7251,32 @@
       ]
     },
     {
+      "slug": "asb:mesothelioma-lifetime-us",
+      "name": "Mesothelioma (US average resident, lifetime)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 500.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Lifetime US mesothelioma mortality risk ≈ 0.05% in unexposed population.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "Lifetime US mesothelioma mortality risk ≈ 0.05% in unexposed population.",
+      "originalUnit": "lifetime excess mortality (µmt)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "NCI — Asbestos Exposure & Cancer Risk Fact Sheet",
+        "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/asbestos/asbestos-fact-sheet",
+        "publisher": "US NCI"
+      },
+      "tags": [
+        "asbestos",
+        "cancer",
+        "lifetime"
+      ]
+    },
+    {
       "slug": "med:live-kidney-donor-male",
       "name": "Live kidney donor nephrectomy (male)",
       "description": null,
@@ -7249,6 +7479,33 @@
         "demographic",
         "elderly",
         "falls"
+      ]
+    },
+    {
+      "slug": "diarr:diarrheal-u5-global",
+      "name": "Diarrheal disease (global child under 5)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 672.4727272727273,
+      "exposure": "per_year",
+      "exposureDetail": "Global U5 diarrhea deaths divided by ~660M children under 5.",
+      "population": null,
+      "region": "world",
+      "year": null,
+      "originalValue": "443,832 deaths/yr / 660,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "GBD 2019 + WHO + BMC Public Health 2024 — Diarrheal mortality",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+        "publisher": "World Health Organization / IHME"
+      },
+      "tags": [
+        "child",
+        "diarrhea",
+        "infection",
+        "wash"
       ]
     },
     {
@@ -7529,6 +7786,31 @@
       "tags": [
         "forestry",
         "occupation"
+      ]
+    },
+    {
+      "slug": "vhf:measles-modern-hic",
+      "name": "Measles (case, high-income setting)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 1000.0,
+      "exposure": "per_event",
+      "exposureDetail": "≈0.1% CFR with modern supportive care.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "0.1% case-fatality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "WHO — Measles fact sheet",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/measles",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "infection",
+        "vaccine-preventable"
       ]
     },
     {
@@ -7833,6 +8115,33 @@
       ]
     },
     {
+      "slug": "asb:asbestos-shipyard-secondary",
+      "name": "Family member of asbestos worker (lifetime asbestosis)",
+      "description": null,
+      "category": "environmental",
+      "micromorts": 2000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "LA County study: 11% of wives, 2-7% of children showed pulmonary signs.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "LA County study: 11% of wives, 2-7% of children showed pulmonary signs.",
+      "originalUnit": "lifetime excess mortality (µmt)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "NCI — Asbestos Exposure & Cancer Risk Fact Sheet",
+        "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/asbestos/asbestos-fact-sheet",
+        "publisher": "US NCI"
+      },
+      "tags": [
+        "asbestos",
+        "environmental",
+        "lifetime",
+        "secondary"
+      ]
+    },
+    {
       "slug": "cdc-life:age-035-us-2022",
       "name": "All-cause mortality at age 35 (US, 2022)",
       "description": null,
@@ -7962,6 +8271,33 @@
         "child",
         "country",
         "u5mr"
+      ]
+    },
+    {
+      "slug": "diarr:diarrheal-u5-africa",
+      "name": "Diarrheal disease (African child under 5)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 2538.4615384615386,
+      "exposure": "per_year",
+      "exposureDetail": "330k African U5 deaths attributable to diarrhea annually.",
+      "population": null,
+      "region": "africa",
+      "year": null,
+      "originalValue": "330,000 deaths/yr / 130,000,000 pop",
+      "originalUnit": "deaths per year per population",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "GBD 2019 + WHO + BMC Public Health 2024 — Diarrheal mortality",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+        "publisher": "World Health Organization / IHME"
+      },
+      "tags": [
+        "child",
+        "diarrhea",
+        "infection",
+        "wash"
       ]
     },
     {
@@ -8727,6 +9063,33 @@
       "tags": [
         "cancer",
         "gu"
+      ]
+    },
+    {
+      "slug": "asb:shipyard-worker-pleural-meso",
+      "name": "Shipyard worker 1960-81 (lifetime pleural-mesothelioma excess)",
+      "description": null,
+      "category": "occupation",
+      "micromorts": 5000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Genoa cohort: 575 pleural-mesothelioma deaths vs 1 expected — ~0.5% lifetime excess.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "Genoa cohort: 575 pleural-mesothelioma deaths vs 1 expected — ~0.5% lifetime excess.",
+      "originalUnit": "lifetime excess mortality (µmt)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Puntoni et al. — Genoa shipyard cohort, 55-yr follow-up",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6310930/",
+        "publisher": "Occupational Medicine / Univ. of Genoa"
+      },
+      "tags": [
+        "asbestos",
+        "cancer",
+        "lifetime",
+        "occupation"
       ]
     },
     {
@@ -9774,6 +10137,33 @@
       ]
     },
     {
+      "slug": "asb:shipyard-worker-asbestosis",
+      "name": "Shipyard worker 1960-81 (lifetime asbestosis excess)",
+      "description": null,
+      "category": "occupation",
+      "micromorts": 20000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Genoa cohort: 2,277 asbestosis deaths vs 1 expected — ~2% lifetime excess.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "Genoa cohort: 2,277 asbestosis deaths vs 1 expected — ~2% lifetime excess.",
+      "originalUnit": "lifetime excess mortality (µmt)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Puntoni et al. — Genoa shipyard cohort, 55-yr follow-up",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6310930/",
+        "publisher": "Occupational Medicine / Univ. of Genoa"
+      },
+      "tags": [
+        "asbestos",
+        "lifetime",
+        "occupation",
+        "respiratory"
+      ]
+    },
+    {
       "slug": "cdc-life:age-070-us-2022",
       "name": "All-cause mortality at age 70 (US, 2022)",
       "description": null,
@@ -10370,6 +10760,31 @@
       ]
     },
     {
+      "slug": "vhf:polio-paralytic",
+      "name": "Poliomyelitis (paralytic case)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 50000.0,
+      "exposure": "per_event",
+      "exposureDetail": "Bulbar paralytic polio case-fatality 2-10%; midpoint shown.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "5.0% case-fatality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "CDC Pink Book — Poliomyelitis",
+        "url": "https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-18-poliomyelitis.html",
+        "publisher": "US CDC"
+      },
+      "tags": [
+        "infection",
+        "vaccine-preventable"
+      ]
+    },
+    {
       "slug": "cdc-life:age-080-us-2022",
       "name": "All-cause mortality at age 80 (US, 2022)",
       "description": null,
@@ -10445,6 +10860,33 @@
         "lung-cancer",
         "radiation",
         "radon"
+      ]
+    },
+    {
+      "slug": "chronic:alzheimer-65y-man",
+      "name": "Alzheimer's disease — remaining lifetime risk, 65-yr-old man",
+      "description": null,
+      "category": "disease",
+      "micromorts": 63000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Conditional risk from age 65.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "Conditional risk from age 65.",
+      "originalUnit": "lifetime probability / excess µmt",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Alzheimer's Association — 2025 Facts and Figures",
+        "url": "https://www.alz.org/alzheimers-dementia/facts-figures",
+        "publisher": "Alzheimer's Association"
+      },
+      "tags": [
+        "chronic",
+        "dementia",
+        "demographic",
+        "lifetime"
       ]
     },
     {
@@ -10579,6 +11021,58 @@
       ]
     },
     {
+      "slug": "vhf:measles-untreated",
+      "name": "Measles (case, low-income/unvaccinated setting)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 100000.0,
+      "exposure": "per_event",
+      "exposureDetail": "5-15% CFR in vulnerable populations without care.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "10.0% case-fatality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "WHO — Measles fact sheet",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/measles",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "infection",
+        "vaccine-preventable"
+      ]
+    },
+    {
+      "slug": "chronic:alzheimer-lifetime-men",
+      "name": "Alzheimer's disease — lifetime risk, men age 45",
+      "description": null,
+      "category": "disease",
+      "micromorts": 100000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Men age 45 face ~1 in 10 lifetime risk.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "Men age 45 face ~1 in 10 lifetime risk.",
+      "originalUnit": "lifetime probability / excess µmt",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Alzheimer's Association — 2025 Facts and Figures",
+        "url": "https://www.alz.org/alzheimers-dementia/facts-figures",
+        "publisher": "Alzheimer's Association"
+      },
+      "tags": [
+        "chronic",
+        "dementia",
+        "demographic",
+        "lifetime"
+      ]
+    },
+    {
       "slug": "u5:niger-2023",
       "name": "Under-5 mortality — Niger (2023)",
       "description": null,
@@ -10660,6 +11154,32 @@
       ]
     },
     {
+      "slug": "chronic:t2dm-yll-diag30",
+      "name": "Type-2 diabetes diagnosed at age 30 — excess lifetime mortality",
+      "description": null,
+      "category": "disease",
+      "micromorts": 112000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Mean 14 years of life lost when T2DM is diagnosed at age 30 (USA rates).",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "Mean 14 years of life lost when T2DM is diagnosed at age 30 (USA rates).",
+      "originalUnit": "lifetime probability / excess µmt",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Lancet Diabetes & Endocrinology — T2DM 23-jurisdiction study",
+        "url": "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(22)00252-2/abstract",
+        "publisher": "Lancet Diabetes & Endocrinology"
+      },
+      "tags": [
+        "chronic",
+        "diabetes",
+        "lifetime"
+      ]
+    },
+    {
       "slug": "u5:somalia-2023",
       "name": "Under-5 mortality — Somalia (2023)",
       "description": null,
@@ -10712,6 +11232,33 @@
         "mercury",
         "space",
         "upper-bound"
+      ]
+    },
+    {
+      "slug": "chronic:alzheimer-65y-woman",
+      "name": "Alzheimer's disease — remaining lifetime risk, 65-yr-old woman",
+      "description": null,
+      "category": "disease",
+      "micromorts": 120000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Conditional risk from age 65.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "Conditional risk from age 65.",
+      "originalUnit": "lifetime probability / excess µmt",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Alzheimer's Association — 2025 Facts and Figures",
+        "url": "https://www.alz.org/alzheimers-dementia/facts-figures",
+        "publisher": "Alzheimer's Association"
+      },
+      "tags": [
+        "chronic",
+        "dementia",
+        "demographic",
+        "lifetime"
       ]
     },
     {
@@ -10863,6 +11410,33 @@
         "cardiovascular",
         "lifestyle",
         "obesity"
+      ]
+    },
+    {
+      "slug": "chronic:t2dm-scotland-women",
+      "name": "Type-2 diabetes lifetime risk (Scottish women)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 163000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "16.3% — lowest across 23 high-income jurisdictions.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "16.3% — lowest across 23 high-income jurisdictions.",
+      "originalUnit": "lifetime probability / excess µmt",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Lancet Diabetes & Endocrinology — T2DM 23-jurisdiction study",
+        "url": "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(22)00252-2/abstract",
+        "publisher": "Lancet Diabetes & Endocrinology"
+      },
+      "tags": [
+        "chronic",
+        "demographic",
+        "diabetes",
+        "lifetime"
       ]
     },
     {
@@ -11070,6 +11644,33 @@
       ]
     },
     {
+      "slug": "chronic:alzheimer-lifetime-women",
+      "name": "Alzheimer's disease — lifetime risk, women age 45",
+      "description": null,
+      "category": "disease",
+      "micromorts": 200000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "Women age 45 face ~1 in 5 lifetime risk.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "Women age 45 face ~1 in 5 lifetime risk.",
+      "originalUnit": "lifetime probability / excess µmt",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Alzheimer's Association — 2025 Facts and Figures",
+        "url": "https://www.alz.org/alzheimers-dementia/facts-figures",
+        "publisher": "Alzheimer's Association"
+      },
+      "tags": [
+        "chronic",
+        "dementia",
+        "demographic",
+        "lifetime"
+      ]
+    },
+    {
       "slug": "cancer-life:any-cancer-male-us-2024",
       "name": "Any cancer death (lifetime, male)",
       "description": null,
@@ -11224,6 +11825,32 @@
       ]
     },
     {
+      "slug": "vhf:smallpox-variola-major",
+      "name": "Smallpox (Variola major, per case, pre-eradication)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 300000.0,
+      "exposure": "per_event",
+      "exposureDetail": "Average CFR ~30% before eradication (1980).",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "30.0% case-fatality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Wikipedia — Smallpox",
+        "url": "https://en.wikipedia.org/wiki/Smallpox",
+        "publisher": "Wikipedia"
+      },
+      "tags": [
+        "eradicated",
+        "historical",
+        "infection"
+      ]
+    },
+    {
       "slug": "inf:mrsa-bacteremia-30d",
       "name": "MRSA bacteraemia (per episode, 30-day)",
       "description": null,
@@ -11354,6 +11981,32 @@
       ]
     },
     {
+      "slug": "chronic:dementia-lifetime-55",
+      "name": "Dementia (any cause) — lifetime risk after age 55",
+      "description": null,
+      "category": "disease",
+      "micromorts": 420000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "42% lifetime risk; substantially higher in women, Black adults, APOE ε4 carriers.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "42% lifetime risk; substantially higher in women, Black adults, APOE ε4 carriers.",
+      "originalUnit": "lifetime probability / excess µmt",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Nature Medicine 2024 — Lifetime dementia risk after age 55",
+        "url": "https://www.nature.com/articles/s41591-024-03340-9",
+        "publisher": "Nature Medicine"
+      },
+      "tags": [
+        "chronic",
+        "dementia",
+        "lifetime"
+      ]
+    },
+    {
       "slug": "drug:heavy-smoker-lifetime",
       "name": "Heavy smoker (20/day × 50 years) — lifetime",
       "description": null,
@@ -11402,6 +12055,108 @@
       "tags": [
         "infection",
         "tetanus"
+      ]
+    },
+    {
+      "slug": "vhf:marburg-vhf",
+      "name": "Marburg virus disease (per case, outbreak avg)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 500000.0,
+      "exposure": "per_event",
+      "exposureDetail": "Average ≈50%; outbreaks have reached 88%.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "50.0% case-fatality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "WHO — Marburg virus disease fact sheet",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/marburg-virus-disease",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "infection",
+        "vhf"
+      ]
+    },
+    {
+      "slug": "vhf:ebola-vhf",
+      "name": "Ebola virus disease (per case, average)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 500000.0,
+      "exposure": "per_event",
+      "exposureDetail": "Outbreak CFR ranges 25-90%.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "50.0% case-fatality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "WHO — Ebola disease fact sheet",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/ebola-disease",
+        "publisher": "World Health Organization"
+      },
+      "tags": [
+        "infection",
+        "vhf"
+      ]
+    },
+    {
+      "slug": "chronic:t2dm-singapore-men",
+      "name": "Type-2 diabetes lifetime risk (Singaporean men)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 596000.0,
+      "exposure": "lifetime",
+      "exposureDetail": "59.6% lifetime risk — highest across 23 high-income jurisdictions.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "59.6% lifetime risk — highest across 23 high-income jurisdictions.",
+      "originalUnit": "lifetime probability / excess µmt",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Lancet Diabetes & Endocrinology — T2DM 23-jurisdiction study",
+        "url": "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(22)00252-2/abstract",
+        "publisher": "Lancet Diabetes & Endocrinology"
+      },
+      "tags": [
+        "chronic",
+        "demographic",
+        "diabetes",
+        "lifetime"
+      ]
+    },
+    {
+      "slug": "vhf:ebola-2025-meta",
+      "name": "Ebola virus disease (1996-2023 meta-CFR)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 630000.0,
+      "exposure": "per_event",
+      "exposureDetail": "JoGH 2025 meta-analysis: 63% CFR across outbreaks.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "63.0% case-fatality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "JoGH 2025 — Global infectious-disease outbreak case-fatality analysis",
+        "url": "https://jogh.org/2025/jogh-15-04151/",
+        "publisher": "Journal of Global Health"
+      },
+      "tags": [
+        "infection",
+        "vhf"
       ]
     },
     {
@@ -11454,6 +12209,31 @@
         "lifestyle",
         "lifetime",
         "obesity"
+      ]
+    },
+    {
+      "slug": "vhf:marburg-2025-meta",
+      "name": "Marburg virus disease (1996-2023 meta-CFR)",
+      "description": null,
+      "category": "disease",
+      "micromorts": 770000.0,
+      "exposure": "per_event",
+      "exposureDetail": "JoGH 2025 meta-analysis: 76.9% CFR across outbreaks.",
+      "population": null,
+      "region": null,
+      "year": null,
+      "originalValue": "77.0% case-fatality",
+      "originalUnit": "case-fatality probability",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "JoGH 2025 — Global infectious-disease outbreak case-fatality analysis",
+        "url": "https://jogh.org/2025/jogh-15-04151/",
+        "publisher": "Journal of Global Health"
+      },
+      "tags": [
+        "infection",
+        "vhf"
       ]
     },
     {

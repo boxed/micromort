@@ -784,11 +784,11 @@ function _Debug_crash_UNUSED(identifier, fact1, fact2, fact3, fact4)
 
 function _Debug_regionToString(region)
 {
-	if (region._.J === region.ag.J)
+	if (region._.K === region.ag.K)
 	{
-		return 'on line ' + region._.J;
+		return 'on line ' + region._.K;
 	}
-	return 'on lines ' + region._.J + ' through ' + region.ag.J;
+	return 'on lines ' + region._.K + ' through ' + region.ag.K;
 }
 
 
@@ -2719,7 +2719,7 @@ var _VirtualDom_mapEventTuple = F2(function(func, tuple)
 var _VirtualDom_mapEventRecord = F2(function(func, record)
 {
 	return {
-		t: func(record.t),
+		u: func(record.u),
 		aa: record.aa,
 		W: record.W
 	}
@@ -2989,7 +2989,7 @@ function _VirtualDom_makeCallback(eventNode, initialHandler)
 		// 3 = Custom
 
 		var value = result.a;
-		var message = !tag ? value : tag < 3 ? value.a : value.t;
+		var message = !tag ? value : tag < 3 ? value.a : value.u;
 		var stopPropagation = tag == 1 ? value.b : tag == 3 && value.aa;
 		var currentEventNode = (
 			stopPropagation && event.stopPropagation(),
@@ -6181,7 +6181,7 @@ var $author$project$Main$Risk = function (slug) {
 													return function (notes) {
 														return function (source) {
 															return function (tags) {
-																return {h: category, aO: confidence, aP: description, s: exposure, R: exposureDetail, z: micromorts, p: name, T: notes, a$: originalUnit, ap: originalValue, V: population, X: region, v: slug, Z: source, ab: tags, aJ: year};
+																return {h: category, aO: confidence, aP: description, t: exposure, R: exposureDetail, z: micromorts, q: name, T: notes, a$: originalUnit, ap: originalValue, V: population, X: region, m: slug, Z: source, ab: tags, aJ: year};
 															};
 														};
 													};
@@ -6221,7 +6221,7 @@ var $author$project$Main$nullable = F2(
 	});
 var $author$project$Main$Source = F3(
 	function (name, url, publisher) {
-		return {p: name, a0: publisher, ac: url};
+		return {q: name, a0: publisher, ac: url};
 	});
 var $elm$json$Json$Decode$map3 = _Json_map3;
 var $elm$json$Json$Decode$maybe = function (decoder) {
@@ -6286,7 +6286,7 @@ var $author$project$Main$payloadDecoder = A2(
 	$elm$json$Json$Decode$list($author$project$Main$riskDecoder));
 var $author$project$Main$init = function (_v0) {
 	return _Utils_Tuple2(
-		{m: $elm$core$Set$empty, n: $elm$core$Set$empty, I: $elm$core$Maybe$Nothing, E: '', j: 0, K: $elm$core$Maybe$Nothing, L: $author$project$Main$Loading},
+		{n: $elm$core$Set$empty, o: $elm$core$Set$empty, J: $elm$core$Maybe$Nothing, E: '', j: 0, F: $elm$core$Maybe$Nothing, L: $author$project$Main$Loading},
 		$elm$http$Http$get(
 			{
 				aS: A2($elm$http$Http$expectJson, $author$project$Main$GotData, $author$project$Main$payloadDecoder),
@@ -6300,6 +6300,56 @@ var $author$project$Main$Failed = function (a) {
 };
 var $author$project$Main$Loaded = function (a) {
 	return {$: 2, a: a};
+};
+var $elm$core$List$filter = F2(
+	function (isGood, list) {
+		return A3(
+			$elm$core$List$foldr,
+			F2(
+				function (x, xs) {
+					return isGood(x) ? A2($elm$core$List$cons, x, xs) : xs;
+				}),
+			_List_Nil,
+			list);
+	});
+var $elm$core$List$head = function (list) {
+	if (list.b) {
+		var x = list.a;
+		var xs = list.b;
+		return $elm$core$Maybe$Just(x);
+	} else {
+		return $elm$core$Maybe$Nothing;
+	}
+};
+var $elm$core$Maybe$map = F2(
+	function (f, maybe) {
+		if (!maybe.$) {
+			var value = maybe.a;
+			return $elm$core$Maybe$Just(
+				f(value));
+		} else {
+			return $elm$core$Maybe$Nothing;
+		}
+	});
+var $author$project$Main$defaultSelection = function (rs) {
+	var preferred = _List_fromArray(
+		['wiki:baseline-all-causes-us-day', 'wiki:baseline-all-causes-eaw-day', 'background-mortality-uk-avg-day']);
+	var findSlug = function (slug) {
+		return A2(
+			$elm$core$Maybe$map,
+			function ($) {
+				return $.m;
+			},
+			$elm$core$List$head(
+				A2(
+					$elm$core$List$filter,
+					function (r) {
+						return _Utils_eq(r.m, slug);
+					},
+					rs)));
+	};
+	return $elm$core$List$head(
+		A2($elm$core$List$filterMap, findSlug, preferred));
 };
 var $author$project$Main$httpError = function (e) {
 	switch (e.$) {
@@ -6340,6 +6390,7 @@ var $author$project$Main$update = F2(
 						_Utils_update(
 							model,
 							{
+								F: $author$project$Main$defaultSelection(rs),
 								L: $author$project$Main$Loaded(rs)
 							}),
 						$elm$core$Platform$Cmd$none);
@@ -6368,7 +6419,7 @@ var $author$project$Main$update = F2(
 					_Utils_update(
 						model,
 						{
-							m: on ? A2($elm$core$Set$insert, c, model.m) : A2($elm$core$Set$remove, c, model.m)
+							n: on ? A2($elm$core$Set$insert, c, model.n) : A2($elm$core$Set$remove, c, model.n)
 						}),
 					$elm$core$Platform$Cmd$none);
 			case 3:
@@ -6378,7 +6429,7 @@ var $author$project$Main$update = F2(
 					_Utils_update(
 						model,
 						{
-							n: on ? A2($elm$core$Set$insert, e, model.n) : A2($elm$core$Set$remove, e, model.n)
+							o: on ? A2($elm$core$Set$insert, e, model.o) : A2($elm$core$Set$remove, e, model.o)
 						}),
 					$elm$core$Platform$Cmd$none);
 			case 4:
@@ -6386,20 +6437,20 @@ var $author$project$Main$update = F2(
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{I: slug}),
+						{J: slug}),
 					$elm$core$Platform$Cmd$none);
 			case 5:
 				var slug = msg.a;
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{K: slug}),
+						{F: slug}),
 					$elm$core$Platform$Cmd$none);
 			case 6:
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{m: $elm$core$Set$empty, n: $elm$core$Set$empty, E: ''}),
+						{n: $elm$core$Set$empty, o: $elm$core$Set$empty, E: ''}),
 					$elm$core$Platform$Cmd$none);
 			default:
 				var s = msg.a;
@@ -6438,17 +6489,6 @@ var $author$project$Main$ToggleCategory = F2(
 var $author$project$Main$ToggleExposure = F2(
 	function (a, b) {
 		return {$: 3, a: a, b: b};
-	});
-var $elm$core$List$filter = F2(
-	function (isGood, list) {
-		return A3(
-			$elm$core$List$foldr,
-			F2(
-				function (x, xs) {
-					return isGood(x) ? A2($elm$core$List$cons, x, xs) : xs;
-				}),
-			_List_Nil,
-			list);
 	});
 var $elm$core$Dict$isEmpty = function (dict) {
 	if (dict.$ === -2) {
@@ -6500,24 +6540,24 @@ var $author$project$Main$applyFilters = F2(
 						' ',
 						_List_fromArray(
 							[
-								r.p,
+								r.q,
 								r.h,
-								r.s,
+								r.t,
 								A2($elm$core$Maybe$withDefault, '', r.R),
 								A2($elm$core$Maybe$withDefault, '', r.V),
 								A2($elm$core$Maybe$withDefault, '', r.X),
 								A2($elm$core$Maybe$withDefault, '', r.T),
-								A2($elm$core$Maybe$withDefault, '', r.Z.p),
+								A2($elm$core$Maybe$withDefault, '', r.Z.q),
 								A2($elm$core$String$join, ' ', r.ab)
 							])));
 				return A2($elm$core$String$contains, q, hay);
 			}
 		};
 		var matchesExposure = function (r) {
-			return $elm$core$Set$isEmpty(m.n) || A2($elm$core$Set$member, r.s, m.n);
+			return $elm$core$Set$isEmpty(m.o) || A2($elm$core$Set$member, r.t, m.o);
 		};
 		var matchesCategory = function (r) {
-			return $elm$core$Set$isEmpty(m.m) || A2($elm$core$Set$member, r.h, m.m);
+			return $elm$core$Set$isEmpty(m.n) || A2($elm$core$Set$member, r.h, m.n);
 		};
 		return A2(
 			$elm$core$List$filter,
@@ -6868,11 +6908,11 @@ var $author$project$Main$xForMicromorts = F2(
 var $author$project$Main$dot = F4(
 	function (model, axis, y, r) {
 		var isSelected = _Utils_eq(
-			model.K,
-			$elm$core$Maybe$Just(r.v));
+			model.F,
+			$elm$core$Maybe$Just(r.m));
 		var isHovered = _Utils_eq(
-			model.I,
-			$elm$core$Maybe$Just(r.v));
+			model.J,
+			$elm$core$Maybe$Just(r.m));
 		var cx = A2($author$project$Main$xForMicromorts, axis, r.z);
 		return A2(
 			$elm$svg$Svg$circle,
@@ -6888,12 +6928,12 @@ var $author$project$Main$dot = F4(
 					'dot cat-' + (r.h + (isSelected ? ' selected' : ''))),
 					$elm$svg$Svg$Events$onMouseOver(
 					$author$project$Main$Hover(
-						$elm$core$Maybe$Just(r.v))),
+						$elm$core$Maybe$Just(r.m))),
 					$elm$svg$Svg$Events$onMouseOut(
 					$author$project$Main$Hover($elm$core$Maybe$Nothing)),
 					$elm$svg$Svg$Events$onClick(
 					$author$project$Main$Select(
-						$elm$core$Maybe$Just(r.v)))
+						$elm$core$Maybe$Just(r.m)))
 				]),
 			_List_fromArray(
 				[
@@ -6903,7 +6943,7 @@ var $author$project$Main$dot = F4(
 					_List_fromArray(
 						[
 							$elm$svg$Svg$text(
-							r.p + ('  —  ' + ($author$project$Main$formatMicromorts(r.z) + (' µmt ' + $author$project$Main$humanizeExposure(r.s)))))
+							r.q + ('  —  ' + ($author$project$Main$formatMicromorts(r.z) + (' µmt ' + $author$project$Main$humanizeExposure(r.t)))))
 						]))
 				]));
 	});
@@ -7165,21 +7205,12 @@ var $author$project$Main$chart = F2(
 						A4($author$project$Main$rowYLabelsAndDots, model, axis, rows, chartHeight)))
 				]));
 	});
-var $elm$core$List$head = function (list) {
-	if (list.b) {
-		var x = list.a;
-		var xs = list.b;
-		return $elm$core$Maybe$Just(x);
-	} else {
-		return $elm$core$Maybe$Nothing;
-	}
-};
 var $author$project$Main$findBy = function (slug) {
 	return A2(
 		$elm$core$Basics$composeR,
 		$elm$core$List$filter(
 			function (r) {
-				return _Utils_eq(r.v, slug);
+				return _Utils_eq(r.m, slug);
 			}),
 		$elm$core$List$head);
 };
@@ -7235,11 +7266,11 @@ var $author$project$Main$viewSource = function (s) {
 					_List_fromArray(
 						[
 							$elm$html$Html$text(
-							A2($elm$core$Maybe$withDefault, u, s.p))
+							A2($elm$core$Maybe$withDefault, u, s.q))
 						]))
 				]));
 	} else {
-		var _v1 = s.p;
+		var _v1 = s.q;
 		if (!_v1.$) {
 			var n = _v1.a;
 			return A2(
@@ -7290,7 +7321,7 @@ var $author$project$Main$viewTags = function (ts) {
 var $author$project$Main$detailPanel = F2(
 	function (model, risks) {
 		var focus = function () {
-			var _v3 = _Utils_Tuple2(model.K, model.I);
+			var _v3 = _Utils_Tuple2(model.F, model.J);
 			if (!_v3.a.$) {
 				var s = _v3.a.a;
 				return A2($author$project$Main$findBy, s, risks);
@@ -7329,7 +7360,7 @@ var $author$project$Main$detailPanel = F2(
 						_List_Nil,
 						_List_fromArray(
 							[
-								$elm$html$Html$text(r.p)
+								$elm$html$Html$text(r.q)
 							])),
 						A2(
 						$elm$html$Html$p,
@@ -7360,7 +7391,7 @@ var $author$project$Main$detailPanel = F2(
 								_List_fromArray(
 									[
 										$elm$html$Html$text(
-										$author$project$Main$humanizeExposure(r.s))
+										$author$project$Main$humanizeExposure(r.t))
 									]))
 							])),
 						A2(
@@ -7380,7 +7411,7 @@ var $author$project$Main$detailPanel = F2(
 									])),
 								$elm$html$Html$text(' · '),
 								$elm$html$Html$text(
-								$author$project$Main$humanizeExposure(r.s)),
+								$author$project$Main$humanizeExposure(r.t)),
 								function () {
 								var _v1 = r.aJ;
 								if (!_v1.$) {
@@ -7520,10 +7551,10 @@ var $author$project$Main$row = function (r) {
 				$elm$html$Html$Attributes$class('risk-row'),
 				$elm$html$Html$Events$onMouseOver(
 				$author$project$Main$Hover(
-					$elm$core$Maybe$Just(r.v))),
+					$elm$core$Maybe$Just(r.m))),
 				$elm$html$Html$Events$onClick(
 				$author$project$Main$Select(
-					$elm$core$Maybe$Just(r.v)))
+					$elm$core$Maybe$Just(r.m)))
 			]),
 		_List_fromArray(
 			[
@@ -7567,7 +7598,7 @@ var $author$project$Main$row = function (r) {
 				_List_fromArray(
 					[
 						$elm$html$Html$text(
-						$author$project$Main$humanizeExposure(r.s))
+						$author$project$Main$humanizeExposure(r.t))
 					])),
 				A2(
 				$elm$html$Html$span,
@@ -7577,7 +7608,7 @@ var $author$project$Main$row = function (r) {
 					]),
 				_List_fromArray(
 					[
-						$elm$html$Html$text(r.p)
+						$elm$html$Html$text(r.q)
 					]))
 			]));
 };
@@ -7703,7 +7734,7 @@ var $author$project$Main$viewLoaded = F2(
 			A2(
 				$elm$core$List$map,
 				function ($) {
-					return $.s;
+					return $.t;
 				},
 				risks));
 		var allCategories = $author$project$Main$uniqueSorted(
@@ -7741,8 +7772,8 @@ var $author$project$Main$viewLoaded = F2(
 								]),
 							_List_Nil),
 							$author$project$Main$scaleToggle(model.j),
-							A4($author$project$Main$filterGroup, 'Category', model.m, $author$project$Main$ToggleCategory, allCategories),
-							A4($author$project$Main$filterGroup, 'Exposure', model.n, $author$project$Main$ToggleExposure, allExposures),
+							A4($author$project$Main$filterGroup, 'Category', model.n, $author$project$Main$ToggleCategory, allCategories),
+							A4($author$project$Main$filterGroup, 'Exposure', model.o, $author$project$Main$ToggleExposure, allExposures),
 							A2(
 							$elm$html$Html$button,
 							_List_fromArray(

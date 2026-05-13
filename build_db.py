@@ -20,8 +20,13 @@ from scrape import (
     combat_sports,
     drugs_specific,
     animals_global,
+    asbestos,
     cancers_more,
+    chronic_diseases,
+    diarrheal_global,
     drugs_pharma,
+    endurance_sports,
+    hemorrhagic_viruses,
     environmental_extra,
     environmental_more,
     extreme_more,
@@ -125,6 +130,11 @@ SCRAPERS = [
     ("lifestyle", lifestyle.ingest),
     ("extreme_more", extreme_more.ingest),
     ("drugs_pharma", drugs_pharma.ingest),
+    ("hemorrhagic_viruses", hemorrhagic_viruses.ingest),
+    ("chronic_diseases", chronic_diseases.ingest),
+    ("diarrheal_global", diarrheal_global.ingest),
+    ("asbestos", asbestos.ingest),
+    ("endurance_sports", endurance_sports.ingest),
 ]
 
 
