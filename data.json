@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 487,
+  "count": 519,
   "risks": [
     {
       "slug": "wiki:train-mile",
@@ -8939,6 +8939,118 @@
       ]
     },
     {
+      "slug": "hist-life:us-1900-age-015",
+      "name": "All-cause mortality at age 15 (US, 1900)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 4600.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 15, US, 1900",
+      "population": "US whites, both sexes (Glover/Hacker reconstruction)",
+      "region": "US",
+      "year": 1900,
+      "originalValue": "qx = 0.0046",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Hacker 2010 — Decennial Life Tables for the White Population of the United States, 1790-1900",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2885717/",
+        "publisher": "Historical Methods 43(2):45-79"
+      },
+      "tags": [
+        "age",
+        "age-15",
+        "baseline",
+        "historical",
+        "us-1900"
+      ]
+    },
+    {
+      "slug": "hist-life:sweden-1751-1759-age-015",
+      "name": "All-cause mortality at age 15 (Sweden, 1751-1759)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 4700.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 15, Sweden, 1751-1759",
+      "population": "Sweden, both sexes (HMD period life table)",
+      "region": "SE",
+      "year": 1755,
+      "originalValue": "qx = 0.0047",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "Human Mortality Database — Sweden period life table 1751-1759",
+        "url": "https://www.mortality.org/Country/Country?cntr=SWE",
+        "publisher": "UC Berkeley & MPIDR"
+      },
+      "tags": [
+        "age",
+        "age-15",
+        "baseline",
+        "historical",
+        "sweden-1751-1759"
+      ]
+    },
+    {
+      "slug": "hist-life:us-1900-age-005",
+      "name": "All-cause mortality at age 5 (US, 1900)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 4900.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 5, US, 1900",
+      "population": "US whites, both sexes (Glover/Hacker reconstruction)",
+      "region": "US",
+      "year": 1900,
+      "originalValue": "qx = 0.0049",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Hacker 2010 — Decennial Life Tables for the White Population of the United States, 1790-1900",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2885717/",
+        "publisher": "Historical Methods 43(2):45-79"
+      },
+      "tags": [
+        "age",
+        "age-5",
+        "baseline",
+        "historical",
+        "us-1900"
+      ]
+    },
+    {
+      "slug": "hist-life:hunter-gatherer-age-015",
+      "name": "All-cause mortality at age 15 (Hunter-gatherer composite)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 5000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 15, Hunter-gatherer composite",
+      "population": "Composite of Hadza, Hiwi, !Kung, Tsimane, Ache (traditional foragers/forager-horticulturalists)",
+      "region": "global",
+      "year": 2000,
+      "originalValue": "qx = 0.0050",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "low",
+      "notes": null,
+      "source": {
+        "name": "Gurven & Kaplan 2007 — Longevity Among Hunter-Gatherers: A Cross-Cultural Examination",
+        "url": "https://www.anth.ucsb.edu/sites/secure.lsit.ucsb.edu.anth.d7/files/sitefiles/faculty/gurven/papers/GurvenKaplan2007pdr.pdf",
+        "publisher": "Population & Development Review 33(2):321-365"
+      },
+      "tags": [
+        "age",
+        "age-15",
+        "baseline",
+        "historical",
+        "hunter-gatherer"
+      ]
+    },
+    {
       "slug": "surg:appendectomy",
       "name": "Appendectomy",
       "description": null,
@@ -9400,6 +9512,34 @@
       ]
     },
     {
+      "slug": "hist-life:us-1900-age-025",
+      "name": "All-cause mortality at age 25 (US, 1900)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 6700.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 25, US, 1900",
+      "population": "US whites, both sexes (Glover/Hacker reconstruction)",
+      "region": "US",
+      "year": 1900,
+      "originalValue": "qx = 0.0067",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Hacker 2010 — Decennial Life Tables for the White Population of the United States, 1790-1900",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2885717/",
+        "publisher": "Historical Methods 43(2):45-79"
+      },
+      "tags": [
+        "age",
+        "age-25",
+        "baseline",
+        "historical",
+        "us-1900"
+      ]
+    },
+    {
       "slug": "cdc-life:age-055-us-2022",
       "name": "All-cause mortality at age 55 (US, 2022)",
       "description": null,
@@ -9423,6 +9563,34 @@
         "age",
         "age-55",
         "baseline"
+      ]
+    },
+    {
+      "slug": "hist-life:england-wales-1841-age-015",
+      "name": "All-cause mortality at age 15 (England & Wales, 1841)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 7000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 15, England & Wales, 1841",
+      "population": "England & Wales, both sexes (Farr)",
+      "region": "UK",
+      "year": 1841,
+      "originalValue": "qx = 0.0070",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Farr 1843 — English Life Table No.1 (1841 census)",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/lifeexpectancies/datasets/englishlifetablesno17/",
+        "publisher": "UK Office for National Statistics — Historical Mortality Tables"
+      },
+      "tags": [
+        "age",
+        "age-15",
+        "baseline",
+        "england-wales-1841",
+        "historical"
       ]
     },
     {
@@ -9473,6 +9641,34 @@
       },
       "tags": [
         "baseline"
+      ]
+    },
+    {
+      "slug": "hist-life:sweden-1751-1759-age-025",
+      "name": "All-cause mortality at age 25 (Sweden, 1751-1759)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 7400.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 25, Sweden, 1751-1759",
+      "population": "Sweden, both sexes (HMD period life table)",
+      "region": "SE",
+      "year": 1755,
+      "originalValue": "qx = 0.0074",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "Human Mortality Database — Sweden period life table 1751-1759",
+        "url": "https://www.mortality.org/Country/Country?cntr=SWE",
+        "publisher": "UC Berkeley & MPIDR"
+      },
+      "tags": [
+        "age",
+        "age-25",
+        "baseline",
+        "historical",
+        "sweden-1751-1759"
       ]
     },
     {
@@ -9626,6 +9822,62 @@
       ]
     },
     {
+      "slug": "hist-life:england-wales-1841-age-025",
+      "name": "All-cause mortality at age 25 (England & Wales, 1841)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 10000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 25, England & Wales, 1841",
+      "population": "England & Wales, both sexes (Farr)",
+      "region": "UK",
+      "year": 1841,
+      "originalValue": "qx = 0.0100",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Farr 1843 — English Life Table No.1 (1841 census)",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/lifeexpectancies/datasets/englishlifetablesno17/",
+        "publisher": "UK Office for National Statistics — Historical Mortality Tables"
+      },
+      "tags": [
+        "age",
+        "age-25",
+        "baseline",
+        "england-wales-1841",
+        "historical"
+      ]
+    },
+    {
+      "slug": "hist-life:hunter-gatherer-age-025",
+      "name": "All-cause mortality at age 25 (Hunter-gatherer composite)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 10000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 25, Hunter-gatherer composite",
+      "population": "Composite of Hadza, Hiwi, !Kung, Tsimane, Ache (traditional foragers/forager-horticulturalists)",
+      "region": "global",
+      "year": 2000,
+      "originalValue": "qx = 0.0100",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "low",
+      "notes": null,
+      "source": {
+        "name": "Gurven & Kaplan 2007 — Longevity Among Hunter-Gatherers: A Cross-Cultural Examination",
+        "url": "https://www.anth.ucsb.edu/sites/secure.lsit.ucsb.edu.anth.d7/files/sitefiles/faculty/gurven/papers/GurvenKaplan2007pdr.pdf",
+        "publisher": "Population & Development Review 33(2):321-365"
+      },
+      "tags": [
+        "age",
+        "age-25",
+        "baseline",
+        "historical",
+        "hunter-gatherer"
+      ]
+    },
+    {
       "slug": "space:virgin-galactic-pilot",
       "name": "Virgin Galactic SpaceShipTwo (per pilot-flight)",
       "description": null,
@@ -9729,6 +9981,34 @@
       ]
     },
     {
+      "slug": "hist-life:england-wales-1841-age-005",
+      "name": "All-cause mortality at age 5 (England & Wales, 1841)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 11000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 5, England & Wales, 1841",
+      "population": "England & Wales, both sexes (Farr)",
+      "region": "UK",
+      "year": 1841,
+      "originalValue": "qx = 0.0110",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Farr 1843 — English Life Table No.1 (1841 census)",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/lifeexpectancies/datasets/englishlifetablesno17/",
+        "publisher": "UK Office for National Statistics — Historical Mortality Tables"
+      },
+      "tags": [
+        "age",
+        "age-5",
+        "baseline",
+        "england-wales-1841",
+        "historical"
+      ]
+    },
+    {
       "slug": "cancer-life:pancreas-us-2024",
       "name": "Pancreatic cancer (lifetime)",
       "description": null,
@@ -9802,6 +10082,34 @@
         "historical",
         "war",
         "wwii"
+      ]
+    },
+    {
+      "slug": "hist-life:sweden-1751-1759-age-045",
+      "name": "All-cause mortality at age 45 (Sweden, 1751-1759)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 12400.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 45, Sweden, 1751-1759",
+      "population": "Sweden, both sexes (HMD period life table)",
+      "region": "SE",
+      "year": 1755,
+      "originalValue": "qx = 0.0124",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "Human Mortality Database — Sweden period life table 1751-1759",
+        "url": "https://www.mortality.org/Country/Country?cntr=SWE",
+        "publisher": "UC Berkeley & MPIDR"
+      },
+      "tags": [
+        "age",
+        "age-45",
+        "baseline",
+        "historical",
+        "sweden-1751-1759"
       ]
     },
     {
@@ -9984,6 +10292,34 @@
       ]
     },
     {
+      "slug": "hist-life:us-1900-age-045",
+      "name": "All-cause mortality at age 45 (US, 1900)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 14500.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 45, US, 1900",
+      "population": "US whites, both sexes (Glover/Hacker reconstruction)",
+      "region": "US",
+      "year": 1900,
+      "originalValue": "qx = 0.0145",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Hacker 2010 — Decennial Life Tables for the White Population of the United States, 1790-1900",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2885717/",
+        "publisher": "Historical Methods 43(2):45-79"
+      },
+      "tags": [
+        "age",
+        "age-45",
+        "baseline",
+        "historical",
+        "us-1900"
+      ]
+    },
+    {
       "slug": "space:space-shuttle-vehicle",
       "name": "Space Shuttle launch (per vehicle, 1981-2011)",
       "description": null,
@@ -10010,6 +10346,34 @@
       ]
     },
     {
+      "slug": "hist-life:hunter-gatherer-age-045",
+      "name": "All-cause mortality at age 45 (Hunter-gatherer composite)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 15000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 45, Hunter-gatherer composite",
+      "population": "Composite of Hadza, Hiwi, !Kung, Tsimane, Ache (traditional foragers/forager-horticulturalists)",
+      "region": "global",
+      "year": 2000,
+      "originalValue": "qx = 0.0150",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "low",
+      "notes": null,
+      "source": {
+        "name": "Gurven & Kaplan 2007 — Longevity Among Hunter-Gatherers: A Cross-Cultural Examination",
+        "url": "https://www.anth.ucsb.edu/sites/secure.lsit.ucsb.edu.anth.d7/files/sitefiles/faculty/gurven/papers/GurvenKaplan2007pdr.pdf",
+        "publisher": "Population & Development Review 33(2):321-365"
+      },
+      "tags": [
+        "age",
+        "age-45",
+        "baseline",
+        "historical",
+        "hunter-gatherer"
+      ]
+    },
+    {
       "slug": "medm:ivf-stillbirth",
       "name": "Stillbirth following IVF/ICSI (per pregnancy)",
       "description": null,
@@ -10032,6 +10396,62 @@
       "tags": [
         "ivf",
         "pregnancy"
+      ]
+    },
+    {
+      "slug": "hist-life:sweden-1751-1759-age-005",
+      "name": "All-cause mortality at age 5 (Sweden, 1751-1759)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 16700.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 5, Sweden, 1751-1759",
+      "population": "Sweden, both sexes (HMD period life table)",
+      "region": "SE",
+      "year": 1755,
+      "originalValue": "qx = 0.0167",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "Human Mortality Database — Sweden period life table 1751-1759",
+        "url": "https://www.mortality.org/Country/Country?cntr=SWE",
+        "publisher": "UC Berkeley & MPIDR"
+      },
+      "tags": [
+        "age",
+        "age-5",
+        "baseline",
+        "historical",
+        "sweden-1751-1759"
+      ]
+    },
+    {
+      "slug": "hist-life:england-wales-1841-age-045",
+      "name": "All-cause mortality at age 45 (England & Wales, 1841)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 18000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 45, England & Wales, 1841",
+      "population": "England & Wales, both sexes (Farr)",
+      "region": "UK",
+      "year": 1841,
+      "originalValue": "qx = 0.0180",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Farr 1843 — English Life Table No.1 (1841 census)",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/lifeexpectancies/datasets/englishlifetablesno17/",
+        "publisher": "UK Office for National Statistics — Historical Mortality Tables"
+      },
+      "tags": [
+        "age",
+        "age-45",
+        "baseline",
+        "england-wales-1841",
+        "historical"
       ]
     },
     {
@@ -10083,6 +10503,34 @@
         "mars",
         "radiation",
         "space"
+      ]
+    },
+    {
+      "slug": "hist-life:hunter-gatherer-age-005",
+      "name": "All-cause mortality at age 5 (Hunter-gatherer composite)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 20000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 5, Hunter-gatherer composite",
+      "population": "Composite of Hadza, Hiwi, !Kung, Tsimane, Ache (traditional foragers/forager-horticulturalists)",
+      "region": "global",
+      "year": 2000,
+      "originalValue": "qx = 0.0200",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "low",
+      "notes": null,
+      "source": {
+        "name": "Gurven & Kaplan 2007 — Longevity Among Hunter-Gatherers: A Cross-Cultural Examination",
+        "url": "https://www.anth.ucsb.edu/sites/secure.lsit.ucsb.edu.anth.d7/files/sitefiles/faculty/gurven/papers/GurvenKaplan2007pdr.pdf",
+        "publisher": "Population & Development Review 33(2):321-365"
+      },
+      "tags": [
+        "age",
+        "age-5",
+        "baseline",
+        "historical",
+        "hunter-gatherer"
       ]
     },
     {
@@ -10529,6 +10977,34 @@
       ]
     },
     {
+      "slug": "hist-life:us-1900-age-001",
+      "name": "All-cause mortality at age 1 (US, 1900)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 34900.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 1, US, 1900",
+      "population": "US whites, both sexes (Glover/Hacker reconstruction)",
+      "region": "US",
+      "year": 1900,
+      "originalValue": "qx = 0.0349",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Hacker 2010 — Decennial Life Tables for the White Population of the United States, 1790-1900",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2885717/",
+        "publisher": "Historical Methods 43(2):45-79"
+      },
+      "tags": [
+        "age",
+        "age-1",
+        "baseline",
+        "historical",
+        "us-1900"
+      ]
+    },
+    {
       "slug": "u5:world-2023",
       "name": "Under-5 mortality — World (average) (2023)",
       "description": null,
@@ -10606,6 +11082,34 @@
       ]
     },
     {
+      "slug": "hist-life:sweden-1751-1759-age-065",
+      "name": "All-cause mortality at age 65 (Sweden, 1751-1759)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 41200.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 65, Sweden, 1751-1759",
+      "population": "Sweden, both sexes (HMD period life table)",
+      "region": "SE",
+      "year": 1755,
+      "originalValue": "qx = 0.0412",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "Human Mortality Database — Sweden period life table 1751-1759",
+        "url": "https://www.mortality.org/Country/Country?cntr=SWE",
+        "publisher": "UC Berkeley & MPIDR"
+      },
+      "tags": [
+        "age",
+        "age-65",
+        "baseline",
+        "historical",
+        "sweden-1751-1759"
+      ]
+    },
+    {
       "slug": "mountaineering-himalayan-8000m",
       "name": "Himalayan 8000m climb",
       "description": null,
@@ -10652,6 +11156,34 @@
       },
       "tags": [
         "covid"
+      ]
+    },
+    {
+      "slug": "hist-life:us-1900-age-065",
+      "name": "All-cause mortality at age 65 (US, 1900)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 46800.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 65, US, 1900",
+      "population": "US whites, both sexes (Glover/Hacker reconstruction)",
+      "region": "US",
+      "year": 1900,
+      "originalValue": "qx = 0.0468",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Hacker 2010 — Decennial Life Tables for the White Population of the United States, 1790-1900",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2885717/",
+        "publisher": "Historical Methods 43(2):45-79"
+      },
+      "tags": [
+        "age",
+        "age-65",
+        "baseline",
+        "historical",
+        "us-1900"
       ]
     },
     {
@@ -10811,6 +11343,62 @@
       ]
     },
     {
+      "slug": "hist-life:england-wales-1841-age-065",
+      "name": "All-cause mortality at age 65 (England & Wales, 1841)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 54000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 65, England & Wales, 1841",
+      "population": "England & Wales, both sexes (Farr)",
+      "region": "UK",
+      "year": 1841,
+      "originalValue": "qx = 0.0540",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Farr 1843 — English Life Table No.1 (1841 census)",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/lifeexpectancies/datasets/englishlifetablesno17/",
+        "publisher": "UK Office for National Statistics — Historical Mortality Tables"
+      },
+      "tags": [
+        "age",
+        "age-65",
+        "baseline",
+        "england-wales-1841",
+        "historical"
+      ]
+    },
+    {
+      "slug": "hist-life:hunter-gatherer-age-065",
+      "name": "All-cause mortality at age 65 (Hunter-gatherer composite)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 55000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 65, Hunter-gatherer composite",
+      "population": "Composite of Hadza, Hiwi, !Kung, Tsimane, Ache (traditional foragers/forager-horticulturalists)",
+      "region": "global",
+      "year": 2000,
+      "originalValue": "qx = 0.0550",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "low",
+      "notes": null,
+      "source": {
+        "name": "Gurven & Kaplan 2007 — Longevity Among Hunter-Gatherers: A Cross-Cultural Examination",
+        "url": "https://www.anth.ucsb.edu/sites/secure.lsit.ucsb.edu.anth.d7/files/sitefiles/faculty/gurven/papers/GurvenKaplan2007pdr.pdf",
+        "publisher": "Population & Development Review 33(2):321-365"
+      },
+      "tags": [
+        "age",
+        "age-65",
+        "baseline",
+        "historical",
+        "hunter-gatherer"
+      ]
+    },
+    {
       "slug": "cancer-life:lung-us-2024",
       "name": "Lung & bronchus cancer (lifetime)",
       "description": null,
@@ -10914,6 +11502,62 @@
         "child",
         "country",
         "u5mr"
+      ]
+    },
+    {
+      "slug": "hist-life:england-wales-1841-age-001",
+      "name": "All-cause mortality at age 1 (England & Wales, 1841)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 66000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 1, England & Wales, 1841",
+      "population": "England & Wales, both sexes (Farr)",
+      "region": "UK",
+      "year": 1841,
+      "originalValue": "qx = 0.0660",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Farr 1843 — English Life Table No.1 (1841 census)",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/lifeexpectancies/datasets/englishlifetablesno17/",
+        "publisher": "UK Office for National Statistics — Historical Mortality Tables"
+      },
+      "tags": [
+        "age",
+        "age-1",
+        "baseline",
+        "england-wales-1841",
+        "historical"
+      ]
+    },
+    {
+      "slug": "hist-life:hunter-gatherer-age-001",
+      "name": "All-cause mortality at age 1 (Hunter-gatherer composite)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 70000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 1, Hunter-gatherer composite",
+      "population": "Composite of Hadza, Hiwi, !Kung, Tsimane, Ache (traditional foragers/forager-horticulturalists)",
+      "region": "global",
+      "year": 2000,
+      "originalValue": "qx = 0.0700",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "low",
+      "notes": null,
+      "source": {
+        "name": "Gurven & Kaplan 2007 — Longevity Among Hunter-Gatherers: A Cross-Cultural Examination",
+        "url": "https://www.anth.ucsb.edu/sites/secure.lsit.ucsb.edu.anth.d7/files/sitefiles/faculty/gurven/papers/GurvenKaplan2007pdr.pdf",
+        "publisher": "Population & Development Review 33(2):321-365"
+      },
+      "tags": [
+        "age",
+        "age-1",
+        "baseline",
+        "historical",
+        "hunter-gatherer"
       ]
     },
     {
@@ -11021,6 +11665,34 @@
       ]
     },
     {
+      "slug": "hist-life:us-1900-age-075",
+      "name": "All-cause mortality at age 75 (US, 1900)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 98900.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 75, US, 1900",
+      "population": "US whites, both sexes (Glover/Hacker reconstruction)",
+      "region": "US",
+      "year": 1900,
+      "originalValue": "qx = 0.0989",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Hacker 2010 — Decennial Life Tables for the White Population of the United States, 1790-1900",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2885717/",
+        "publisher": "Historical Methods 43(2):45-79"
+      },
+      "tags": [
+        "age",
+        "age-75",
+        "baseline",
+        "historical",
+        "us-1900"
+      ]
+    },
+    {
       "slug": "vhf:measles-untreated",
       "name": "Measles (case, low-income/unvaccinated setting)",
       "description": null,
@@ -11070,6 +11742,34 @@
         "dementia",
         "demographic",
         "lifetime"
+      ]
+    },
+    {
+      "slug": "hist-life:sweden-1751-1759-age-075",
+      "name": "All-cause mortality at age 75 (Sweden, 1751-1759)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 100400.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 75, Sweden, 1751-1759",
+      "population": "Sweden, both sexes (HMD period life table)",
+      "region": "SE",
+      "year": 1755,
+      "originalValue": "qx = 0.1004",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "Human Mortality Database — Sweden period life table 1751-1759",
+        "url": "https://www.mortality.org/Country/Country?cntr=SWE",
+        "publisher": "UC Berkeley & MPIDR"
+      },
+      "tags": [
+        "age",
+        "age-75",
+        "baseline",
+        "historical",
+        "sweden-1751-1759"
       ]
     },
     {
@@ -11154,6 +11854,34 @@
       ]
     },
     {
+      "slug": "hist-life:sweden-1751-1759-age-001",
+      "name": "All-cause mortality at age 1 (Sweden, 1751-1759)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 108000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 1, Sweden, 1751-1759",
+      "population": "Sweden, both sexes (HMD period life table)",
+      "region": "SE",
+      "year": 1755,
+      "originalValue": "qx = 0.1080",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "Human Mortality Database — Sweden period life table 1751-1759",
+        "url": "https://www.mortality.org/Country/Country?cntr=SWE",
+        "publisher": "UC Berkeley & MPIDR"
+      },
+      "tags": [
+        "age",
+        "age-1",
+        "baseline",
+        "historical",
+        "sweden-1751-1759"
+      ]
+    },
+    {
       "slug": "chronic:t2dm-yll-diag30",
       "name": "Type-2 diabetes diagnosed at age 30 — excess lifetime mortality",
       "description": null,
@@ -11235,6 +11963,34 @@
       ]
     },
     {
+      "slug": "hist-life:england-wales-1841-age-075",
+      "name": "All-cause mortality at age 75 (England & Wales, 1841)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 117000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 75, England & Wales, 1841",
+      "population": "England & Wales, both sexes (Farr)",
+      "region": "UK",
+      "year": 1841,
+      "originalValue": "qx = 0.1170",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Farr 1843 — English Life Table No.1 (1841 census)",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/lifeexpectancies/datasets/englishlifetablesno17/",
+        "publisher": "UK Office for National Statistics — Historical Mortality Tables"
+      },
+      "tags": [
+        "age",
+        "age-75",
+        "baseline",
+        "england-wales-1841",
+        "historical"
+      ]
+    },
+    {
       "slug": "chronic:alzheimer-65y-woman",
       "name": "Alzheimer's disease — remaining lifetime risk, 65-yr-old woman",
       "description": null,
@@ -11283,6 +12039,34 @@
       },
       "tags": [
         "stroke"
+      ]
+    },
+    {
+      "slug": "hist-life:hunter-gatherer-age-075",
+      "name": "All-cause mortality at age 75 (Hunter-gatherer composite)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 130000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 75, Hunter-gatherer composite",
+      "population": "Composite of Hadza, Hiwi, !Kung, Tsimane, Ache (traditional foragers/forager-horticulturalists)",
+      "region": "global",
+      "year": 2000,
+      "originalValue": "qx = 0.1300",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "low",
+      "notes": null,
+      "source": {
+        "name": "Gurven & Kaplan 2007 — Longevity Among Hunter-Gatherers: A Cross-Cultural Examination",
+        "url": "https://www.anth.ucsb.edu/sites/secure.lsit.ucsb.edu.anth.d7/files/sitefiles/faculty/gurven/papers/GurvenKaplan2007pdr.pdf",
+        "publisher": "Population & Development Review 33(2):321-365"
+      },
+      "tags": [
+        "age",
+        "age-75",
+        "baseline",
+        "historical",
+        "hunter-gatherer"
       ]
     },
     {
@@ -11337,6 +12121,34 @@
       ]
     },
     {
+      "slug": "hist-life:us-1900-age-000",
+      "name": "All-cause mortality at age 0 (US, 1900)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 131000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 0, US, 1900",
+      "population": "US whites, both sexes (Glover/Hacker reconstruction)",
+      "region": "US",
+      "year": 1900,
+      "originalValue": "qx = 0.1310",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Hacker 2010 — Decennial Life Tables for the White Population of the United States, 1790-1900",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2885717/",
+        "publisher": "Historical Methods 43(2):45-79"
+      },
+      "tags": [
+        "age",
+        "age-0",
+        "baseline",
+        "historical",
+        "us-1900"
+      ]
+    },
+    {
       "slug": "cdc-life:age-090-us-2022",
       "name": "All-cause mortality at age 90 (US, 2022)",
       "description": null,
@@ -11384,6 +12196,34 @@
       },
       "tags": [
         "covid"
+      ]
+    },
+    {
+      "slug": "hist-life:england-wales-1841-age-000",
+      "name": "All-cause mortality at age 0 (England & Wales, 1841)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 150000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 0, England & Wales, 1841",
+      "population": "England & Wales, both sexes (Farr)",
+      "region": "UK",
+      "year": 1841,
+      "originalValue": "qx = 0.1500",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "medium",
+      "notes": null,
+      "source": {
+        "name": "Farr 1843 — English Life Table No.1 (1841 census)",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/lifeexpectancies/datasets/englishlifetablesno17/",
+        "publisher": "UK Office for National Statistics — Historical Mortality Tables"
+      },
+      "tags": [
+        "age",
+        "age-0",
+        "baseline",
+        "england-wales-1841",
+        "historical"
       ]
     },
     {
@@ -11671,6 +12511,34 @@
       ]
     },
     {
+      "slug": "hist-life:sweden-1751-1759-age-000",
+      "name": "All-cause mortality at age 0 (Sweden, 1751-1759)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 211000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 0, Sweden, 1751-1759",
+      "population": "Sweden, both sexes (HMD period life table)",
+      "region": "SE",
+      "year": 1755,
+      "originalValue": "qx = 0.2110",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "high",
+      "notes": null,
+      "source": {
+        "name": "Human Mortality Database — Sweden period life table 1751-1759",
+        "url": "https://www.mortality.org/Country/Country?cntr=SWE",
+        "publisher": "UC Berkeley & MPIDR"
+      },
+      "tags": [
+        "age",
+        "age-0",
+        "baseline",
+        "historical",
+        "sweden-1751-1759"
+      ]
+    },
+    {
       "slug": "cancer-life:any-cancer-male-us-2024",
       "name": "Any cancer death (lifetime, male)",
       "description": null,
@@ -11771,6 +12639,34 @@
         "historical",
         "war",
         "wwii"
+      ]
+    },
+    {
+      "slug": "hist-life:hunter-gatherer-age-000",
+      "name": "All-cause mortality at age 0 (Hunter-gatherer composite)",
+      "description": null,
+      "category": "baseline",
+      "micromorts": 270000.0,
+      "exposure": "per_year",
+      "exposureDetail": "Probability of dying within one year, exact age 0, Hunter-gatherer composite",
+      "population": "Composite of Hadza, Hiwi, !Kung, Tsimane, Ache (traditional foragers/forager-horticulturalists)",
+      "region": "global",
+      "year": 2000,
+      "originalValue": "qx = 0.2700",
+      "originalUnit": "qx (probability of dying within one year)",
+      "confidence": "low",
+      "notes": null,
+      "source": {
+        "name": "Gurven & Kaplan 2007 — Longevity Among Hunter-Gatherers: A Cross-Cultural Examination",
+        "url": "https://www.anth.ucsb.edu/sites/secure.lsit.ucsb.edu.anth.d7/files/sitefiles/faculty/gurven/papers/GurvenKaplan2007pdr.pdf",
+        "publisher": "Population & Development Review 33(2):321-365"
+      },
+      "tags": [
+        "age",
+        "age-0",
+        "baseline",
+        "historical",
+        "hunter-gatherer"
       ]
     },
     {
