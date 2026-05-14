@@ -52,6 +52,12 @@ html, body {
   padding: 1.5rem 1.25rem 4rem;
 }
 
+@media (max-width: 800px) {
+  .app {
+    padding: 0.75rem 0.75rem 3rem;
+  }
+}
+
 .topbar h1 {
   font-size: 1.5rem;
   margin: 0 0 0.25rem;
@@ -60,6 +66,16 @@ html, body {
   color: var(--muted);
   margin: 0 0 1.5rem;
   max-width: 60ch;
+}
+
+@media (max-width: 800px) {
+  .topbar h1 {
+    font-size: 1.2rem;
+  }
+  .subtitle {
+    margin: 0 0 1rem;
+    font-size: 0.9rem;
+  }
 }
 
 .layout {
@@ -71,6 +87,7 @@ html, body {
 @media (max-width: 800px) {
   .layout {
     grid-template-columns: 1fr;
+    gap: 0.75rem;
   }
 }
 
@@ -86,6 +103,15 @@ html, body {
   overflow: auto;
 }
 
+@media (max-width: 800px) {
+  .sidebar {
+    position: static;
+    max-height: none;
+    overflow: visible;
+    padding: 0.75rem;
+  }
+}
+
 .search {
   width: 100%;
   padding: 0.5rem 0.6rem;
@@ -95,6 +121,14 @@ html, body {
   color: var(--fg);
   font: inherit;
   margin-bottom: 0.75rem;
+}
+
+@media (max-width: 800px) {
+  .search {
+    /* 16px prevents iOS Safari from zooming on focus */
+    font-size: 16px;
+    padding: 0.6rem 0.7rem;
+  }
 }
 
 .filter-group { margin-bottom: 0.75rem; }
@@ -119,6 +153,22 @@ html, body {
   gap: 0.5rem;
   cursor: pointer;
   font-size: 0.85rem;
+}
+
+@media (max-width: 800px) {
+  .filter-group ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .filter-group label {
+    padding: 0.25rem 0;
+    font-size: 0.9rem;
+  }
+  .filter-group input[type="checkbox"] {
+    width: 1.05rem;
+    height: 1.05rem;
+  }
 }
 
 button.clear {
@@ -181,6 +231,27 @@ button.clear:hover { background: var(--border); }
 .axis-label, .axis-title { fill: var(--muted); font-size: 11px; font-family: ui-monospace, monospace; }
 .row-label { fill: var(--muted); font-size: 11px; }
 
+@media (max-width: 800px) {
+  /* Keep the chart at its native size and scroll horizontally so axis labels
+     and dots stay legible instead of shrinking to ~4px on a phone. */
+  .chart-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 0.5rem 0.25rem;
+  }
+  .chart {
+    width: 720px;
+    min-width: 720px;
+  }
+  .axis-label, .axis-title, .row-label {
+    font-size: 13px;
+  }
+  .dot {
+    /* a touch easier to tap */
+    stroke-width: 1.5;
+  }
+}
+
 .dot {
   cursor: pointer;
   stroke: var(--panel);
@@ -225,7 +296,10 @@ button.clear:hover { background: var(--border); }
   .detail {
     height: auto;
     min-height: 8rem;
+    padding: 0.85rem 0.95rem;
   }
+  .detail h2 { font-size: 1rem; }
+  .detail .headline .big { font-size: 1.3rem; }
 }
 .detail h2 { margin: 0 0 0.3rem; font-size: 1.1rem; }
 .detail .headline { margin: 0 0 0.4rem; font-size: 1rem; }
@@ -290,6 +364,26 @@ button.clear:hover { background: var(--border); }
 .risk-row .mm { text-align: right; font-weight: 600; }
 .risk-row .mm-unit { color: var(--muted); }
 .risk-row .exp { color: var(--muted); font-size: 0.85rem; }
+
+@media (max-width: 800px) {
+  .list { padding: 0.75rem 0.85rem; }
+  /* Two-line layout on phones: top line shows the value + badge,
+     bottom line shows the name and exposure. */
+  .risk-row {
+    grid-template-columns: auto auto 1fr;
+    grid-template-areas:
+      "mm unit badge"
+      "name name name"
+      "exp exp exp";
+    gap: 0.15rem 0.4rem;
+    padding: 0.5rem 0;
+  }
+  .risk-row .mm { grid-area: mm; text-align: left; }
+  .risk-row .mm-unit { grid-area: unit; }
+  .risk-row .badge { grid-area: badge; justify-self: end; }
+  .risk-row .name { grid-area: name; font-size: 0.95rem; }
+  .risk-row .exp { grid-area: exp; }
+}
 
 .placeholder {
   padding: 2rem;
