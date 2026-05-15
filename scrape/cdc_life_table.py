@@ -100,7 +100,7 @@ def ingest(conn) -> int:
                 conn,
                 slug=f"cdc-life:age-{age:03d}-us-2022",
                 name=f"{label} (US, 2022)",
-                category="baseline",
+                category="baseline today",
                 micromorts=mm,
                 exposure="per_year",
                 exposure_detail=f"Probability of dying within one year, exact age {age}, 2022",

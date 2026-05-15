@@ -45,22 +45,22 @@ class Entry:
 WIKI_ENTRIES: list[Entry] = [
     # --- Baseline mortality ----------------------------------------------
     Entry("baseline-all-causes-eaw-day", "All causes baseline (England & Wales)",
-          "baseline", 24, "per_day", "Population-average all-cause mortality",
+          "baseline today", 24, "per_day", "Population-average all-cause mortality",
           region="GB-EAW", original_value="~24 µmt/day", tags=("baseline",)),
     Entry("baseline-all-causes-eaw-year", "All causes baseline (England & Wales)",
-          "baseline", 8800, "per_year", "Population-average all-cause mortality",
+          "baseline today", 8800, "per_year", "Population-average all-cause mortality",
           region="GB-EAW", original_value="~8,800 µmt/year", tags=("baseline",)),
     Entry("baseline-all-causes-ca-day", "All causes baseline (Canada)",
-          "baseline", 20, "per_day", "Population-average all-cause mortality",
+          "baseline today", 20, "per_day", "Population-average all-cause mortality",
           region="CA", original_value="~20 µmt/day", tags=("baseline",)),
     Entry("baseline-all-causes-ca-year", "All causes baseline (Canada)",
-          "baseline", 7200, "per_year", "Population-average all-cause mortality",
+          "baseline today", 7200, "per_year", "Population-average all-cause mortality",
           region="CA", original_value="~7,200 µmt/year", tags=("baseline",)),
     Entry("baseline-all-causes-us-day", "All causes baseline (US)",
-          "baseline", 22, "per_day", "Population-average all-cause mortality",
+          "baseline today", 22, "per_day", "Population-average all-cause mortality",
           region="US", original_value="~22 µmt/day", tags=("baseline",)),
     Entry("baseline-all-causes-us-year", "All causes baseline (US)",
-          "baseline", 8000, "per_year", "Population-average all-cause mortality",
+          "baseline today", 8000, "per_year", "Population-average all-cause mortality",
           region="US", original_value="~8,000 µmt/year", tags=("baseline",)),
 
     # --- Non-natural causes ---------------------------------------------
@@ -91,10 +91,10 @@ WIKI_ENTRIES: list[Entry] = [
 
     # --- Infancy (all-cause mortality, infants) --------------------------
     Entry("first-day-of-life-eaw", "First day of life mortality (England & Wales)",
-          "baseline", 430, "per_day", "First 24 hours after birth",
+          "baseline today", 430, "per_day", "First 24 hours after birth",
           region="GB-EAW", tags=("infant", "baseline")),
     Entry("first-day-of-life-us", "First day of life mortality (US)",
-          "baseline", 16.7, "per_day", "First 24 hours after birth",
+          "baseline today", 16.7, "per_day", "First 24 hours after birth",
           region="US", tags=("infant", "baseline")),
 
     # --- Violence --------------------------------------------------------

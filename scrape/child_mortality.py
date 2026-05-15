@@ -65,7 +65,7 @@ def ingest(conn) -> int:
                 conn,
                 slug=f"u5:{suffix}-{YEAR}",
                 name=f"Under-5 mortality — {country} ({YEAR})",
-                category="baseline",
+                category="baseline today",
                 micromorts=mm,
                 exposure="lifetime",
                 exposure_detail="Cumulative probability of dying before age 5",

@@ -40,6 +40,7 @@ ERAS: list[dict] = [
     dict(
         slug="us-1900",
         label="US, 1900",
+        category="baseline 1900s",
         region="US",
         year=1900,
         population="US whites, both sexes (Glover/Hacker reconstruction)",
@@ -66,6 +67,7 @@ ERAS: list[dict] = [
     dict(
         slug="england-wales-1841",
         label="England & Wales, 1841",
+        category="baseline 1800s",
         region="UK",
         year=1841,
         population="England & Wales, both sexes (Farr)",
@@ -94,6 +96,7 @@ ERAS: list[dict] = [
     dict(
         slug="sweden-1751-1759",
         label="Sweden, 1751-1759",
+        category="baseline 1700s",
         region="SE",
         year=1755,
         population="Sweden, both sexes (HMD period life table)",
@@ -120,6 +123,7 @@ ERAS: list[dict] = [
     dict(
         slug="hunter-gatherer",
         label="Hunter-gatherer composite",
+        category="baseline hunter-gatherer",
         region="global",
         year=2000,  # fieldwork era; not a calendar baseline
         population="Composite of Hadza, Hiwi, !Kung, Tsimane, Ache "
@@ -177,7 +181,7 @@ def ingest(conn) -> int:
                     conn,
                     slug=slug,
                     name=f"All-cause mortality at age {age} ({era['label']})",
-                    category="baseline",
+                    category=era["category"],
                     micromorts=mm,
                     exposure="per_year",
                     exposure_detail=(

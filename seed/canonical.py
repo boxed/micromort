@@ -287,7 +287,7 @@ RISKS: list[dict] = [
     dict(
         slug="background-mortality-uk-avg-day",
         name="Average background mortality (UK, one day)",
-        category="baseline",
+        category="baseline today",
         micromorts=39.0,
         exposure="per_day",
         exposure_detail="UK population-average all-cause mortality per day",
