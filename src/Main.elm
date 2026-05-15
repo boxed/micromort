@@ -1,6 +1,8 @@
 module Main exposing (main)
 
 import Browser
+import Browser.Navigation as Nav
+import Dict exposing (Dict)
 import Html exposing (Html, a, button, div, footer, h1, h2, header, input, label, li, main_, p, span, text, ul)
 import Html.Attributes as A exposing (checked, class, href, placeholder, target, type_, value)
 import Html.Events exposing (onCheck, onClick, onInput, onMouseLeave, onMouseOver)
@@ -10,6 +12,8 @@ import Set exposing (Set)
 import Svg exposing (Svg, circle, g, line, svg, text_)
 import Svg.Attributes as SA
 import Svg.Events as SE
+import Url exposing (Url)
+import Url.Builder as UB
 
 
 
@@ -45,11 +49,14 @@ type alias Risk =
 
 type alias Model =
     { state : LoadState
+    , key : Nav.Key
+    , path : String
     , query : String
     , categoryFilter : Set String
     , exposureFilter : Set String
     , hovered : Maybe String
     , selected : Maybe String
+    , userSelected : Bool
     , scale : Scale
     }
 
@@ -65,21 +72,131 @@ type LoadState
     | Loaded (List Risk)
 
 
-init : () -> ( Model, Cmd Msg )
-init _ =
+init : () -> Url -> Nav.Key -> ( Model, Cmd Msg )
+init _ url key =
+    let
+        p =
+            parseUrl url
+    in
     ( { state = Loading
-      , query = ""
-      , categoryFilter = Set.empty
-      , exposureFilter = Set.empty
+      , key = key
+      , path = url.path
+      , query = p.query
+      , categoryFilter = p.categories
+      , exposureFilter = p.exposures
       , hovered = Nothing
-      , selected = Nothing
-      , scale = Linear
+      , selected = p.selected
+      , userSelected = p.selected /= Nothing
+      , scale = p.scale
       }
     , Http.get
         { url = "data.json"
         , expect = Http.expectJson GotData payloadDecoder
         }
     )
+
+
+type alias UrlParams =
+    { query : String
+    , categories : Set String
+    , exposures : Set String
+    , scale : Scale
+    , selected : Maybe String
+    }
+
+
+parseUrl : Url -> UrlParams
+parseUrl url =
+    let
+        pairs : Dict String String
+        pairs =
+            url.query
+                |> Maybe.withDefault ""
+                |> String.split "&"
+                |> List.filterMap parsePair
+                |> Dict.fromList
+
+        getSet key =
+            case Dict.get key pairs of
+                Just raw ->
+                    raw
+                        |> String.split ","
+                        |> List.filter (not << String.isEmpty)
+                        |> Set.fromList
+
+                Nothing ->
+                    Set.empty
+    in
+    { query = Dict.get "q" pairs |> Maybe.withDefault ""
+    , categories = getSet "cat"
+    , exposures = getSet "exp"
+    , scale =
+        if Dict.get "scale" pairs == Just "log" then
+            Log
+
+        else
+            Linear
+    , selected = Dict.get "sel" pairs
+    }
+
+
+parsePair : String -> Maybe ( String, String )
+parsePair s =
+    case String.split "=" s of
+        [ k, v ] ->
+            case Url.percentDecode v of
+                Just decoded ->
+                    Just ( k, decoded )
+
+                Nothing ->
+                    Nothing
+
+        _ ->
+            Nothing
+
+
+buildUrl : Model -> String
+buildUrl m =
+    let
+        joined s =
+            s |> Set.toList |> String.join ","
+
+        params =
+            List.filterMap identity
+                [ if String.isEmpty m.query then
+                    Nothing
+
+                  else
+                    Just (UB.string "q" m.query)
+                , if Set.isEmpty m.categoryFilter then
+                    Nothing
+
+                  else
+                    Just (UB.string "cat" (joined m.categoryFilter))
+                , if Set.isEmpty m.exposureFilter then
+                    Nothing
+
+                  else
+                    Just (UB.string "exp" (joined m.exposureFilter))
+                , if m.scale == Log then
+                    Just (UB.string "scale" "log")
+
+                  else
+                    Nothing
+                , if m.userSelected then
+                    Maybe.map (UB.string "sel") m.selected
+
+                  else
+                    Nothing
+                ]
+
+    in
+    m.path ++ UB.toQuery params
+
+
+syncUrl : Model -> Cmd Msg
+syncUrl m =
+    Nav.replaceUrl m.key (buildUrl m)
 
 
 
@@ -143,66 +260,93 @@ type Msg
     | Select (Maybe String)
     | ClearFilters
     | SetScale Scale
+    | UrlChanged Url
+    | LinkClicked Browser.UrlRequest
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
         GotData (Ok rs) ->
-            ( { model
-                | state = Loaded rs
-                , selected = defaultSelection rs
-              }
-            , Cmd.none
-            )
+            let
+                m2 =
+                    { model
+                        | state = Loaded rs
+                        , selected =
+                            case model.selected of
+                                Just _ ->
+                                    model.selected
+
+                                Nothing ->
+                                    defaultSelection rs
+                    }
+            in
+            ( m2, Cmd.none )
 
         GotData (Err e) ->
             ( { model | state = Failed (httpError e) }, Cmd.none )
 
         QueryChanged q ->
-            ( { model | query = q }, Cmd.none )
+            withUrl { model | query = q }
 
         ToggleCategory c on ->
-            ( { model
-                | categoryFilter =
-                    if on then
-                        Set.insert c model.categoryFilter
+            withUrl
+                { model
+                    | categoryFilter =
+                        if on then
+                            Set.insert c model.categoryFilter
 
-                    else
-                        Set.remove c model.categoryFilter
-              }
-            , Cmd.none
-            )
+                        else
+                            Set.remove c model.categoryFilter
+                }
 
         ToggleExposure e on ->
-            ( { model
-                | exposureFilter =
-                    if on then
-                        Set.insert e model.exposureFilter
+            withUrl
+                { model
+                    | exposureFilter =
+                        if on then
+                            Set.insert e model.exposureFilter
 
-                    else
-                        Set.remove e model.exposureFilter
-              }
-            , Cmd.none
-            )
+                        else
+                            Set.remove e model.exposureFilter
+                }
 
         Hover slug ->
             ( { model | hovered = slug }, Cmd.none )
 
         Select slug ->
-            ( { model | selected = slug }, Cmd.none )
+            withUrl
+                { model
+                    | selected = slug
+                    , userSelected = slug /= Nothing
+                }
 
         ClearFilters ->
-            ( { model
-                | query = ""
-                , categoryFilter = Set.empty
-                , exposureFilter = Set.empty
-              }
-            , Cmd.none
-            )
+            withUrl
+                { model
+                    | query = ""
+                    , categoryFilter = Set.empty
+                    , exposureFilter = Set.empty
+                }
 
         SetScale s ->
-            ( { model | scale = s }, Cmd.none )
+            withUrl { model | scale = s }
+
+        UrlChanged _ ->
+            ( model, Cmd.none )
+
+        LinkClicked req ->
+            case req of
+                Browser.Internal _ ->
+                    ( model, Cmd.none )
+
+                Browser.External href ->
+                    ( model, Nav.load href )
+
+
+withUrl : Model -> ( Model, Cmd Msg )
+withUrl m =
+    ( m, syncUrl m )
 
 
 defaultSelection : List Risk -> Maybe String
@@ -1122,9 +1266,11 @@ formatInt n =
 
 main : Program () Model Msg
 main =
-    Browser.element
+    Browser.application
         { init = init
         , update = update
         , subscriptions = always Sub.none
-        , view = view
+        , view = \m -> { title = "Micromort risk visualizer", body = [ view m ] }
+        , onUrlRequest = LinkClicked
+        , onUrlChange = UrlChanged
         }
